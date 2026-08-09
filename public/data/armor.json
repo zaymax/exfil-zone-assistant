@@ -16,7 +16,7 @@
       "weight": 7.2,
       "armorClass": 4,
       "maxDurability": 90,
-      "durabilityDamageScalar": 0.32,
+      "durabilityDamageScalar": 0.25,
       "bluntDamageScalar": 0.7,
       "protectiveData": [
         {
@@ -107,33 +107,50 @@
       "antiPenetrationDurabilityScalarCurve": [
         {
           "interpMode": "cubic",
-          "tangentMode": "user",
+          "tangentMode": "auto",
           "time": 0,
           "value": 1,
-          "arriveTangent": -0.057609,
-          "leaveTangent": -0.057609
+          "arriveTangent": 0,
+          "leaveTangent": 0
         },
         {
           "interpMode": "cubic",
-          "tangentMode": "user",
-          "time": 0.65,
-          "value": 0.833333,
-          "arriveTangent": -0.649538,
-          "leaveTangent": -0.649537
+          "tangentMode": "auto",
+          "time": 0.2,
+          "value": 1,
+          "arriveTangent": 0,
+          "leaveTangent": 0
         },
         {
           "interpMode": "cubic",
-          "tangentMode": "user",
+          "tangentMode": "auto",
+          "time": 0.45,
+          "value": 0.95,
+          "arriveTangent": -0.32,
+          "leaveTangent": -0.32
+        },
+        {
+          "interpMode": "cubic",
+          "tangentMode": "auto",
+          "time": 0.7,
+          "value": 0.75,
+          "arriveTangent": -0.815822,
+          "leaveTangent": -0.815822
+        },
+        {
+          "interpMode": "cubic",
+          "tangentMode": "auto",
           "time": 1,
-          "value": 0,
-          "arriveTangent": -5.025785,
-          "leaveTangent": -5.025785
+          "value": 0.5,
+          "arriveTangent": -0.83333333,
+          "leaveTangent": -0.83333333
         }
       ]
     },
     "notes": "Military-grade protection with ceramic trauma plates. Effective against most rifle calibers.",
     "tips": "Balance the excellent protection against the mobility penalty. Best used when expecting heavy combat or holding defensive positions."
-  },{
+  },
+  {
     "id": "armor-6b17-upgrade",
     "name": "6B17 Upgraded Body Armor",
     "description": "Russian military body armor vest providing Class 5 protection with ceramic plates. Offers excellent protection against rifle rounds while maintaining reasonable mobility.",
@@ -149,8 +166,8 @@
       "price": 53225,
       "weight": 7.2,
       "armorClass": 5,
-      "maxDurability": 105,
-      "durabilityDamageScalar": 0.32,
+      "maxDurability": 95,
+      "durabilityDamageScalar": 0.25,
       "bluntDamageScalar": 0.7,
       "protectiveData": [
         {
@@ -241,27 +258,43 @@
       "antiPenetrationDurabilityScalarCurve": [
         {
           "interpMode": "cubic",
-          "tangentMode": "user",
+          "tangentMode": "auto",
           "time": 0,
           "value": 1,
-          "arriveTangent": -0.057609,
-          "leaveTangent": -0.057609
+          "arriveTangent": 0,
+          "leaveTangent": 0
         },
         {
           "interpMode": "cubic",
-          "tangentMode": "user",
-          "time": 0.65,
-          "value": 0.833333,
-          "arriveTangent": -0.649538,
-          "leaveTangent": -0.649537
+          "tangentMode": "auto",
+          "time": 0.2,
+          "value": 1,
+          "arriveTangent": 0,
+          "leaveTangent": 0
         },
         {
           "interpMode": "cubic",
-          "tangentMode": "user",
+          "tangentMode": "auto",
+          "time": 0.5,
+          "value": 0.95,
+          "arriveTangent": -0.28481013,
+          "leaveTangent": -0.28481013
+        },
+        {
+          "interpMode": "cubic",
+          "tangentMode": "auto",
+          "time": 0.7,
+          "value": 0.8,
+          "arriveTangent": -0.94240838,
+          "leaveTangent": -0.94240838
+        },
+        {
+          "interpMode": "cubic",
+          "tangentMode": "auto",
           "time": 1,
-          "value": 0,
-          "arriveTangent": -5.025785,
-          "leaveTangent": -5.025785
+          "value": 0.4,
+          "arriveTangent": -1.33333333,
+          "leaveTangent": -1.33333333
         }
       ]
     },
@@ -370,27 +403,43 @@
       "antiPenetrationDurabilityScalarCurve": [
         {
           "interpMode": "cubic",
-          "tangentMode": "user",
+          "tangentMode": "auto",
           "time": 0,
           "value": 1,
-          "arriveTangent": -0.057609,
-          "leaveTangent": -0.057609
+          "arriveTangent": 0,
+          "leaveTangent": 0
         },
         {
           "interpMode": "cubic",
-          "tangentMode": "user",
-          "time": 0.65,
-          "value": 0.833333,
-          "arriveTangent": -0.649538,
-          "leaveTangent": -0.649537
+          "tangentMode": "auto",
+          "time": 0.2,
+          "value": 1,
+          "arriveTangent": 0,
+          "leaveTangent": 0
         },
         {
           "interpMode": "cubic",
-          "tangentMode": "user",
+          "tangentMode": "auto",
+          "time": 0.5,
+          "value": 0.95,
+          "arriveTangent": -0.28481013,
+          "leaveTangent": -0.28481013
+        },
+        {
+          "interpMode": "cubic",
+          "tangentMode": "auto",
+          "time": 0.7,
+          "value": 0.8,
+          "arriveTangent": -0.94240838,
+          "leaveTangent": -0.94240838
+        },
+        {
+          "interpMode": "cubic",
+          "tangentMode": "auto",
           "time": 1,
-          "value": 0,
-          "arriveTangent": -5.025785,
-          "leaveTangent": -5.025785
+          "value": 0.4,
+          "arriveTangent": -1.33333333,
+          "leaveTangent": -1.33333333
         }
       ]
     },
@@ -413,7 +462,7 @@
       "price": 35000,
       "weight": 3.5,
       "armorClass": 2,
-      "maxDurability": 110,
+      "maxDurability": 120,
       "durabilityDamageScalar": 0.45,
       "bluntDamageScalar": 0.9,
       "protectiveData": [
@@ -439,87 +488,95 @@
       "penetrationChanceCurve": [
         {
           "interpMode": "cubic",
-          "tangentMode": "user",
+          "tangentMode": "auto",
           "time": 0,
           "value": 0.95,
-          "arriveTangent": -3.216769,
-          "leaveTangent": -3.216769
+          "arriveTangent": -1.6,
+          "leaveTangent": -1.6
         },
         {
           "interpMode": "cubic",
-          "tangentMode": "user",
+          "tangentMode": "auto",
           "time": 0.5,
-          "value": 0.2,
-          "arriveTangent": -0.669775,
-          "leaveTangent": -0.669775
+          "value": 0.15,
+          "arriveTangent": -0.35555556,
+          "leaveTangent": -0.35555556
         },
         {
-          "interpMode": "linear",
+          "interpMode": "cubic",
           "tangentMode": "auto",
           "time": 1,
           "value": 0.05,
-          "arriveTangent": 0,
-          "leaveTangent": 0
+          "arriveTangent": -0.2,
+          "leaveTangent": -0.2
         }
       ],
       "penetrationDamageScalarCurve": [
         {
           "interpMode": "cubic",
-          "tangentMode": "user",
+          "tangentMode": "auto",
           "time": -1,
           "value": 1,
-          "arriveTangent": -0.010324,
-          "leaveTangent": -0.010324
+          "arriveTangent": -0.1,
+          "leaveTangent": -0.1
         },
         {
           "interpMode": "cubic",
-          "tangentMode": "user",
+          "tangentMode": "auto",
           "time": 0,
-          "value": 0.95,
-          "arriveTangent": -0.140034,
-          "leaveTangent": -0.140035
+          "value": 0.9,
+          "arriveTangent": -0.1636482,
+          "leaveTangent": -0.1636482
         },
         {
           "interpMode": "cubic",
-          "tangentMode": "user",
-          "time": 0.4,
-          "value": 0.7,
-          "arriveTangent": -0.438411,
-          "leaveTangent": -0.43841
+          "tangentMode": "auto",
+          "time": 0.953716,
+          "value": 0.482122,
+          "arriveTangent": -0.25082071,
+          "leaveTangent": -0.25082071
         },
         {
-          "interpMode": "linear",
+          "interpMode": "cubic",
           "tangentMode": "auto",
           "time": 2,
           "value": 0.3,
-          "arriveTangent": 0,
-          "leaveTangent": 0
+          "arriveTangent": -0.17406555,
+          "leaveTangent": -0.17406555
         }
       ],
       "antiPenetrationDurabilityScalarCurve": [
         {
           "interpMode": "cubic",
-          "tangentMode": "user",
+          "tangentMode": "auto",
           "time": 0,
           "value": 1,
-          "arriveTangent": -0.057609,
-          "leaveTangent": -0.057609
+          "arriveTangent": 0,
+          "leaveTangent": 0
         },
         {
           "interpMode": "cubic",
-          "tangentMode": "user",
-          "time": 0.65,
-          "value": 0.833333,
-          "arriveTangent": -0.649538,
-          "leaveTangent": -0.649537
+          "tangentMode": "auto",
+          "time": 0.3,
+          "value": 1,
+          "arriveTangent": 0,
+          "leaveTangent": 0
         },
         {
           "interpMode": "cubic",
-          "tangentMode": "user",
+          "tangentMode": "auto",
+          "time": 0.7,
+          "value": 0.7,
+          "arriveTangent": -0.70391061,
+          "leaveTangent": -0.70391061
+        },
+        {
+          "interpMode": "cubic",
+          "tangentMode": "auto",
           "time": 1,
-          "value": 0,
-          "arriveTangent": -5.025785,
-          "leaveTangent": -5.025785
+          "value": 0.5,
+          "arriveTangent": -0.66666667,
+          "leaveTangent": -0.66666667
         }
       ]
     },
@@ -628,30 +685,45 @@
       "antiPenetrationDurabilityScalarCurve": [
         {
           "interpMode": "cubic",
-          "tangentMode": "user",
+          "tangentMode": "auto",
           "time": 0,
           "value": 1,
-          "arriveTangent": -0.057609,
-          "leaveTangent": -0.057609
+          "arriveTangent": 0,
+          "leaveTangent": 0
         },
         {
           "interpMode": "cubic",
-          "tangentMode": "user",
-          "time": 0.65,
-          "value": 0.833333,
-          "arriveTangent": -0.649538,
-          "leaveTangent": -0.649537
+          "tangentMode": "auto",
+          "time": 0.2,
+          "value": 1,
+          "arriveTangent": 0,
+          "leaveTangent": 0
         },
         {
           "interpMode": "cubic",
-          "tangentMode": "user",
+          "tangentMode": "auto",
+          "time": 0.5,
+          "value": 0.95,
+          "arriveTangent": -0.28481013,
+          "leaveTangent": -0.28481013
+        },
+        {
+          "interpMode": "cubic",
+          "tangentMode": "auto",
+          "time": 0.7,
+          "value": 0.8,
+          "arriveTangent": -0.94240838,
+          "leaveTangent": -0.94240838
+        },
+        {
+          "interpMode": "cubic",
+          "tangentMode": "auto",
           "time": 1,
-          "value": 0,
-          "arriveTangent": -5.025785,
-          "leaveTangent": -5.025785
+          "value": 0.4,
+          "arriveTangent": -1.33333333,
+          "leaveTangent": -1.33333333
         }
       ]
-
     },
     "notes": "High-performance armor with excellent protection-to-weight ratio.",
     "tips": "Premium choice for experienced operators who need reliable protection without excessive bulk."
@@ -758,30 +830,45 @@
       "antiPenetrationDurabilityScalarCurve": [
         {
           "interpMode": "cubic",
-          "tangentMode": "user",
+          "tangentMode": "auto",
           "time": 0,
           "value": 1,
-          "arriveTangent": -0.057609,
-          "leaveTangent": -0.057609
+          "arriveTangent": 0,
+          "leaveTangent": 0
         },
         {
           "interpMode": "cubic",
-          "tangentMode": "user",
-          "time": 0.65,
-          "value": 0.833333,
-          "arriveTangent": -0.649538,
-          "leaveTangent": -0.649537
+          "tangentMode": "auto",
+          "time": 0.2,
+          "value": 1,
+          "arriveTangent": 0,
+          "leaveTangent": 0
         },
         {
           "interpMode": "cubic",
-          "tangentMode": "user",
+          "tangentMode": "auto",
+          "time": 0.45,
+          "value": 0.95,
+          "arriveTangent": -0.32,
+          "leaveTangent": -0.32
+        },
+        {
+          "interpMode": "cubic",
+          "tangentMode": "auto",
+          "time": 0.7,
+          "value": 0.75,
+          "arriveTangent": -0.815822,
+          "leaveTangent": -0.815822
+        },
+        {
+          "interpMode": "cubic",
+          "tangentMode": "auto",
           "time": 1,
-          "value": 0,
-          "arriveTangent": -5.025785,
-          "leaveTangent": -5.025785
+          "value": 0.5,
+          "arriveTangent": -0.83333333,
+          "leaveTangent": -0.83333333
         }
       ]
-
     },
     "notes": "Reliable protection with enhanced durability for extended operations.",
     "tips": "Excellent choice for long missions where equipment reliability is paramount."
@@ -888,30 +975,45 @@
       "antiPenetrationDurabilityScalarCurve": [
         {
           "interpMode": "cubic",
-          "tangentMode": "user",
+          "tangentMode": "auto",
           "time": 0,
           "value": 1,
-          "arriveTangent": -0.057609,
-          "leaveTangent": -0.057609
+          "arriveTangent": 0,
+          "leaveTangent": 0
         },
         {
           "interpMode": "cubic",
-          "tangentMode": "user",
-          "time": 0.65,
-          "value": 0.833333,
-          "arriveTangent": -0.649538,
-          "leaveTangent": -0.649537
+          "tangentMode": "auto",
+          "time": 0.2,
+          "value": 1,
+          "arriveTangent": 0,
+          "leaveTangent": 0
         },
         {
           "interpMode": "cubic",
-          "tangentMode": "user",
+          "tangentMode": "auto",
+          "time": 0.5,
+          "value": 0.95,
+          "arriveTangent": -0.28481013,
+          "leaveTangent": -0.28481013
+        },
+        {
+          "interpMode": "cubic",
+          "tangentMode": "auto",
+          "time": 0.7,
+          "value": 0.8,
+          "arriveTangent": -0.94240838,
+          "leaveTangent": -0.94240838
+        },
+        {
+          "interpMode": "cubic",
+          "tangentMode": "auto",
           "time": 1,
-          "value": 0,
-          "arriveTangent": -5.025785,
-          "leaveTangent": -5.025785
+          "value": 0.4,
+          "arriveTangent": -1.33333333,
+          "leaveTangent": -1.33333333
         }
       ]
-
     },
     "notes": "Modular tactical vest with excellent protection and customization options.",
     "tips": "Heavy but reliable armor for sustained combat operations."
@@ -1036,30 +1138,45 @@
       "antiPenetrationDurabilityScalarCurve": [
         {
           "interpMode": "cubic",
-          "tangentMode": "user",
+          "tangentMode": "auto",
           "time": 0,
           "value": 1,
-          "arriveTangent": -0.057609,
-          "leaveTangent": -0.057609
+          "arriveTangent": 0,
+          "leaveTangent": 0
         },
         {
           "interpMode": "cubic",
-          "tangentMode": "user",
-          "time": 0.65,
-          "value": 0.833333,
-          "arriveTangent": -0.649538,
-          "leaveTangent": -0.649537
+          "tangentMode": "auto",
+          "time": 0.2,
+          "value": 1,
+          "arriveTangent": 0,
+          "leaveTangent": 0
         },
         {
           "interpMode": "cubic",
-          "tangentMode": "user",
+          "tangentMode": "auto",
+          "time": 0.5,
+          "value": 0.95,
+          "arriveTangent": -0.28481013,
+          "leaveTangent": -0.28481013
+        },
+        {
+          "interpMode": "cubic",
+          "tangentMode": "auto",
+          "time": 0.7,
+          "value": 0.8,
+          "arriveTangent": -0.99109653,
+          "leaveTangent": -0.99109653
+        },
+        {
+          "interpMode": "cubic",
+          "tangentMode": "auto",
           "time": 1,
-          "value": 0,
-          "arriveTangent": -5.025785,
-          "leaveTangent": -5.025785
+          "value": 0.33,
+          "arriveTangent": -1.56666667,
+          "leaveTangent": -1.56666667
         }
       ]
-
     },
     "notes": "Military-grade full body protection including arm guards and pelvis protection.",
     "tips": "Ultimate protection for extreme combat situations. The weight penalty is significant but the protection is unmatched."
@@ -1166,30 +1283,45 @@
       "antiPenetrationDurabilityScalarCurve": [
         {
           "interpMode": "cubic",
-          "tangentMode": "user",
+          "tangentMode": "auto",
           "time": 0,
           "value": 1,
-          "arriveTangent": -0.057609,
-          "leaveTangent": -0.057609
+          "arriveTangent": 0,
+          "leaveTangent": 0
         },
         {
           "interpMode": "cubic",
-          "tangentMode": "user",
-          "time": 0.65,
-          "value": 0.833333,
-          "arriveTangent": -0.649538,
-          "leaveTangent": -0.649537
+          "tangentMode": "auto",
+          "time": 0.2,
+          "value": 1,
+          "arriveTangent": 0,
+          "leaveTangent": 0
         },
         {
           "interpMode": "cubic",
-          "tangentMode": "user",
+          "tangentMode": "auto",
+          "time": 0.45,
+          "value": 0.95,
+          "arriveTangent": -0.32,
+          "leaveTangent": -0.32
+        },
+        {
+          "interpMode": "cubic",
+          "tangentMode": "auto",
+          "time": 0.7,
+          "value": 0.75,
+          "arriveTangent": -0.815822,
+          "leaveTangent": -0.815822
+        },
+        {
+          "interpMode": "cubic",
+          "tangentMode": "auto",
           "time": 1,
-          "value": 0,
-          "arriveTangent": -5.025785,
-          "leaveTangent": -5.025785
+          "value": 0.5,
+          "arriveTangent": -0.83333333,
+          "leaveTangent": -0.83333333
         }
       ]
-
     },
     "notes": "Lightweight plate carrier optimized for mobility without sacrificing essential protection.",
     "tips": "Perfect for fast-paced operations where speed and agility are more important than maximum protection."
@@ -1236,27 +1368,27 @@
       "penetrationChanceCurve": [
         {
           "interpMode": "cubic",
-          "tangentMode": "user",
+          "tangentMode": "auto",
           "time": 0,
-          "value": 0.95,
-          "arriveTangent": -3.216769,
-          "leaveTangent": -3.216769
+          "value": 1,
+          "arriveTangent": -0.5,
+          "leaveTangent": -0.5
         },
         {
           "interpMode": "cubic",
-          "tangentMode": "user",
-          "time": 0.5,
-          "value": 0.2,
-          "arriveTangent": -0.669775,
-          "leaveTangent": -0.669775
+          "tangentMode": "auto",
+          "time": 0.6,
+          "value": 0.7,
+          "arriveTangent": -0.80769231,
+          "leaveTangent": -0.80769231
         },
         {
-          "interpMode": "linear",
+          "interpMode": "cubic",
           "tangentMode": "auto",
           "time": 1,
-          "value": 0.05,
-          "arriveTangent": 0,
-          "leaveTangent": 0
+          "value": 0,
+          "arriveTangent": -1.75,
+          "leaveTangent": -1.75
         }
       ],
       "penetrationDamageScalarCurve": [
@@ -1339,8 +1471,8 @@
       "price": 6435,
       "weight": 3.9,
       "armorClass": 2,
-      "maxDurability": 95,
-      "durabilityDamageScalar": 0.7,
+      "maxDurability": 225,
+      "durabilityDamageScalar": 0.4,
       "bluntDamageScalar": 0.9,
       "protectiveData": [
         {
@@ -1425,30 +1557,37 @@
       "antiPenetrationDurabilityScalarCurve": [
         {
           "interpMode": "cubic",
-          "tangentMode": "user",
+          "tangentMode": "auto",
           "time": 0,
           "value": 1,
-          "arriveTangent": -0.057609,
-          "leaveTangent": -0.057609
+          "arriveTangent": 0,
+          "leaveTangent": 0
         },
         {
           "interpMode": "cubic",
-          "tangentMode": "user",
-          "time": 0.65,
-          "value": 0.833333,
-          "arriveTangent": -0.649538,
-          "leaveTangent": -0.649537
+          "tangentMode": "auto",
+          "time": 0.3,
+          "value": 1,
+          "arriveTangent": 0,
+          "leaveTangent": 0
         },
         {
           "interpMode": "cubic",
-          "tangentMode": "user",
+          "tangentMode": "auto",
+          "time": 0.7,
+          "value": 0.7,
+          "arriveTangent": -0.70391061,
+          "leaveTangent": -0.70391061
+        },
+        {
+          "interpMode": "cubic",
+          "tangentMode": "auto",
           "time": 1,
-          "value": 0,
-          "arriveTangent": -5.025785,
-          "leaveTangent": -5.025785
+          "value": 0.5,
+          "arriveTangent": -0.66666667,
+          "leaveTangent": -0.66666667
         }
       ]
-
     },
     "notes": "Basic protection for non-combatant personnel in dangerous areas.",
     "tips": "Minimal protection but clearly identifies the wearer as press. Not suitable for combat operations."
@@ -1495,27 +1634,27 @@
       "penetrationChanceCurve": [
         {
           "interpMode": "cubic",
-          "tangentMode": "user",
+          "tangentMode": "auto",
           "time": 0,
-          "value": 0.95,
-          "arriveTangent": -3.813308,
-          "leaveTangent": -3.813313
+          "value": 1,
+          "arriveTangent": -0.5,
+          "leaveTangent": -0.5
         },
         {
           "interpMode": "cubic",
-          "tangentMode": "user",
-          "time": 0.5,
-          "value": 0.15,
-          "arriveTangent": -0.463078,
-          "leaveTangent": -0.463078
+          "tangentMode": "auto",
+          "time": 0.6,
+          "value": 0.7,
+          "arriveTangent": -0.80769231,
+          "leaveTangent": -0.80769231
         },
         {
           "interpMode": "cubic",
-          "tangentMode": "user",
+          "tangentMode": "auto",
           "time": 1,
-          "value": 0.05,
-          "arriveTangent": -0.035238,
-          "leaveTangent": -0.035238
+          "value": 0,
+          "arriveTangent": -1.75,
+          "leaveTangent": -1.75
         }
       ],
       "penetrationDamageScalarCurve": [
@@ -1624,27 +1763,27 @@
       "penetrationChanceCurve": [
         {
           "interpMode": "cubic",
-          "tangentMode": "user",
+          "tangentMode": "auto",
           "time": 0,
-          "value": 0.95,
-          "arriveTangent": -3.813308,
-          "leaveTangent": -3.813313
+          "value": 1,
+          "arriveTangent": -0.5,
+          "leaveTangent": -0.5
         },
         {
           "interpMode": "cubic",
-          "tangentMode": "user",
-          "time": 0.5,
-          "value": 0.15,
-          "arriveTangent": -0.463078,
-          "leaveTangent": -0.463078
+          "tangentMode": "auto",
+          "time": 0.6,
+          "value": 0.7,
+          "arriveTangent": -0.80769231,
+          "leaveTangent": -0.80769231
         },
         {
           "interpMode": "cubic",
-          "tangentMode": "user",
+          "tangentMode": "auto",
           "time": 1,
-          "value": 0.05,
-          "arriveTangent": -0.035238,
-          "leaveTangent": -0.035238
+          "value": 0,
+          "arriveTangent": -1.75,
+          "leaveTangent": -1.75
         }
       ],
       "penetrationDamageScalarCurve": [
@@ -1707,7 +1846,6 @@
           "leaveTangent": -5.025785
         }
       ]
-
     },
     "notes": "Desert camouflage tactical vest with moderate protection and mobility.",
     "tips": "Ideal for operations in sandy or desert environments where concealment is important."
@@ -1814,30 +1952,45 @@
       "antiPenetrationDurabilityScalarCurve": [
         {
           "interpMode": "cubic",
-          "tangentMode": "user",
+          "tangentMode": "auto",
           "time": 0,
           "value": 1,
-          "arriveTangent": -0.057609,
-          "leaveTangent": -0.057609
+          "arriveTangent": 0,
+          "leaveTangent": 0
         },
         {
           "interpMode": "cubic",
-          "tangentMode": "user",
-          "time": 0.65,
-          "value": 0.833333,
-          "arriveTangent": -0.649538,
-          "leaveTangent": -0.649537
+          "tangentMode": "auto",
+          "time": 0.2,
+          "value": 1,
+          "arriveTangent": 0,
+          "leaveTangent": 0
         },
         {
           "interpMode": "cubic",
-          "tangentMode": "user",
+          "tangentMode": "auto",
+          "time": 0.45,
+          "value": 0.95,
+          "arriveTangent": -0.32,
+          "leaveTangent": -0.32
+        },
+        {
+          "interpMode": "cubic",
+          "tangentMode": "auto",
+          "time": 0.7,
+          "value": 0.75,
+          "arriveTangent": -0.815822,
+          "leaveTangent": -0.815822
+        },
+        {
+          "interpMode": "cubic",
+          "tangentMode": "auto",
           "time": 1,
-          "value": 0,
-          "arriveTangent": -5.025785,
-          "leaveTangent": -5.025785
+          "value": 0.5,
+          "arriveTangent": -0.83333333,
+          "leaveTangent": -0.83333333
         }
       ]
-
     },
     "notes": "High-performance tactical vest with excellent durability and protection.",
     "tips": "Great for sustained combat operations where reliable protection is essential."
@@ -1944,30 +2097,45 @@
       "antiPenetrationDurabilityScalarCurve": [
         {
           "interpMode": "cubic",
-          "tangentMode": "user",
+          "tangentMode": "auto",
           "time": 0,
           "value": 1,
-          "arriveTangent": -0.057609,
-          "leaveTangent": -0.057609
+          "arriveTangent": 0,
+          "leaveTangent": 0
         },
         {
           "interpMode": "cubic",
-          "tangentMode": "user",
-          "time": 0.65,
-          "value": 0.833333,
-          "arriveTangent": -0.649538,
-          "leaveTangent": -0.649537
+          "tangentMode": "auto",
+          "time": 0.2,
+          "value": 1,
+          "arriveTangent": 0,
+          "leaveTangent": 0
         },
         {
           "interpMode": "cubic",
-          "tangentMode": "user",
+          "tangentMode": "auto",
+          "time": 0.45,
+          "value": 0.95,
+          "arriveTangent": -0.32,
+          "leaveTangent": -0.32
+        },
+        {
+          "interpMode": "cubic",
+          "tangentMode": "auto",
+          "time": 0.7,
+          "value": 0.75,
+          "arriveTangent": -0.815822,
+          "leaveTangent": -0.815822
+        },
+        {
+          "interpMode": "cubic",
+          "tangentMode": "auto",
           "time": 1,
-          "value": 0,
-          "arriveTangent": -5.025785,
-          "leaveTangent": -5.025785
+          "value": 0.5,
+          "arriveTangent": -0.83333333,
+          "leaveTangent": -0.83333333
         }
       ]
-
     },
     "notes": "Woodland camouflage version with identical protection to standard Rampage vest.",
     "tips": "Perfect for forest and jungle operations where green/brown camouflage is advantageous."
@@ -1986,9 +2154,9 @@
     "stats": {
       "rarity": "Ultimate",
       "price": 245000,
-      "weight": 14.0,
+      "weight": 14,
       "armorClass": 6,
-      "maxDurability": 275,
+      "maxDurability": 225,
       "durabilityDamageScalar": 0.25,
       "bluntDamageScalar": 0.6,
       "protectiveData": [
@@ -2104,27 +2272,43 @@
       "antiPenetrationDurabilityScalarCurve": [
         {
           "interpMode": "cubic",
-          "tangentMode": "user",
+          "tangentMode": "auto",
           "time": 0,
           "value": 1,
-          "arriveTangent": -0.05760855,
-          "leaveTangent": -0.057608537
+          "arriveTangent": 0,
+          "leaveTangent": 0
         },
         {
           "interpMode": "cubic",
-          "tangentMode": "user",
-          "time": 0.75,
-          "value": 0.8333333,
-          "arriveTangent": -0.64953756,
-          "leaveTangent": -0.649537
+          "tangentMode": "auto",
+          "time": 0.2,
+          "value": 1,
+          "arriveTangent": 0,
+          "leaveTangent": 0
         },
         {
           "interpMode": "cubic",
-          "tangentMode": "user",
+          "tangentMode": "auto",
+          "time": 0.5,
+          "value": 0.95,
+          "arriveTangent": -0.28481013,
+          "leaveTangent": -0.28481013
+        },
+        {
+          "interpMode": "cubic",
+          "tangentMode": "auto",
+          "time": 0.7,
+          "value": 0.8,
+          "arriveTangent": -0.99109653,
+          "leaveTangent": -0.99109653
+        },
+        {
+          "interpMode": "cubic",
+          "tangentMode": "auto",
           "time": 1,
-          "value": 0,
-          "arriveTangent": -5.0257854,
-          "leaveTangent": -5.0257854
+          "value": 0.33,
+          "arriveTangent": -1.56666667,
+          "leaveTangent": -1.56666667
         }
       ]
     },
@@ -2145,7 +2329,7 @@
     "stats": {
       "rarity": "Ultimate",
       "price": 245000,
-      "weight": 14.0,
+      "weight": 14,
       "armorClass": 6,
       "maxDurability": 275,
       "durabilityDamageScalar": 0.25,
@@ -2263,27 +2447,43 @@
       "antiPenetrationDurabilityScalarCurve": [
         {
           "interpMode": "cubic",
-          "tangentMode": "user",
+          "tangentMode": "auto",
           "time": 0,
           "value": 1,
-          "arriveTangent": -0.05760855,
-          "leaveTangent": -0.057608537
+          "arriveTangent": 0,
+          "leaveTangent": 0
         },
         {
           "interpMode": "cubic",
-          "tangentMode": "user",
-          "time": 0.75,
-          "value": 0.8333333,
-          "arriveTangent": -0.64953756,
-          "leaveTangent": -0.649537
+          "tangentMode": "auto",
+          "time": 0.2,
+          "value": 1,
+          "arriveTangent": 0,
+          "leaveTangent": 0
         },
         {
           "interpMode": "cubic",
-          "tangentMode": "user",
+          "tangentMode": "auto",
+          "time": 0.5,
+          "value": 0.95,
+          "arriveTangent": -0.28481013,
+          "leaveTangent": -0.28481013
+        },
+        {
+          "interpMode": "cubic",
+          "tangentMode": "auto",
+          "time": 0.7,
+          "value": 0.8,
+          "arriveTangent": -0.99109653,
+          "leaveTangent": -0.99109653
+        },
+        {
+          "interpMode": "cubic",
+          "tangentMode": "auto",
           "time": 1,
-          "value": 0,
-          "arriveTangent": -5.0257854,
-          "leaveTangent": -5.0257854
+          "value": 0.33,
+          "arriveTangent": -1.56666667,
+          "leaveTangent": -1.56666667
         }
       ]
     },
@@ -2306,8 +2506,8 @@
       "price": 6371,
       "weight": 3.9,
       "armorClass": 2,
-      "maxDurability": 95,
-      "durabilityDamageScalar": 0.7,
+      "maxDurability": 225,
+      "durabilityDamageScalar": 0.4,
       "bluntDamageScalar": 0.9,
       "protectiveData": [
         {
@@ -2392,30 +2592,37 @@
       "antiPenetrationDurabilityScalarCurve": [
         {
           "interpMode": "cubic",
-          "tangentMode": "user",
+          "tangentMode": "auto",
           "time": 0,
           "value": 1,
-          "arriveTangent": -0.057609,
-          "leaveTangent": -0.057609
+          "arriveTangent": 0,
+          "leaveTangent": 0
         },
         {
           "interpMode": "cubic",
-          "tangentMode": "user",
-          "time": 0.65,
-          "value": 0.833333,
-          "arriveTangent": -0.649538,
-          "leaveTangent": -0.649537
+          "tangentMode": "auto",
+          "time": 0.3,
+          "value": 1,
+          "arriveTangent": 0,
+          "leaveTangent": 0
         },
         {
           "interpMode": "cubic",
-          "tangentMode": "user",
+          "tangentMode": "auto",
+          "time": 0.7,
+          "value": 0.7,
+          "arriveTangent": -0.70391061,
+          "leaveTangent": -0.70391061
+        },
+        {
+          "interpMode": "cubic",
+          "tangentMode": "auto",
           "time": 1,
-          "value": 0,
-          "arriveTangent": -5.025785,
-          "leaveTangent": -5.025785
+          "value": 0.5,
+          "arriveTangent": -0.66666667,
+          "leaveTangent": -0.66666667
         }
       ]
-
     },
     "notes": "Entry-level protection for security personnel and civilian use.",
     "tips": "Basic protection suitable for low-threat environments. Prioritizes comfort and affordability over protection."
@@ -2462,27 +2669,27 @@
       "penetrationChanceCurve": [
         {
           "interpMode": "cubic",
-          "tangentMode": "user",
+          "tangentMode": "auto",
           "time": 0,
-          "value": 0.95,
-          "arriveTangent": -3.2167695,
-          "leaveTangent": -3.2167687
+          "value": 1,
+          "arriveTangent": -0.5,
+          "leaveTangent": -0.5
         },
         {
           "interpMode": "cubic",
-          "tangentMode": "user",
-          "time": 0.5,
-          "value": 0.2,
-          "arriveTangent": -0.66977525,
-          "leaveTangent": -0.6697755
+          "tangentMode": "auto",
+          "time": 0.6,
+          "value": 0.7,
+          "arriveTangent": -0.80769231,
+          "leaveTangent": -0.80769231
         },
         {
-          "interpMode": "linear",
+          "interpMode": "cubic",
           "tangentMode": "auto",
           "time": 1,
-          "value": 0.05,
-          "arriveTangent": 0,
-          "leaveTangent": 0
+          "value": 0,
+          "arriveTangent": -1.75,
+          "leaveTangent": -1.75
         }
       ],
       "penetrationDamageScalarCurve": [
@@ -2545,7 +2752,6 @@
           "leaveTangent": -5.025785
         }
       ]
-
     },
     "notes": "Flexible ballistic vest effective against pistol rounds and light rifle fire.",
     "tips": "Good balance of protection and comfort for extended wear. Suitable for patrol and general security work."
@@ -2670,27 +2876,43 @@
       "antiPenetrationDurabilityScalarCurve": [
         {
           "interpMode": "cubic",
-          "tangentMode": "user",
+          "tangentMode": "auto",
           "time": 0,
           "value": 1,
-          "arriveTangent": -0.05760855,
-          "leaveTangent": -0.057608537
+          "arriveTangent": 0,
+          "leaveTangent": 0
         },
         {
           "interpMode": "cubic",
-          "tangentMode": "user",
-          "time": 0.75,
-          "value": 0.8333333,
-          "arriveTangent": -0.64953756,
-          "leaveTangent": -0.649537
+          "tangentMode": "auto",
+          "time": 0.2,
+          "value": 1,
+          "arriveTangent": 0,
+          "leaveTangent": 0
         },
         {
           "interpMode": "cubic",
-          "tangentMode": "user",
+          "tangentMode": "auto",
+          "time": 0.5,
+          "value": 0.95,
+          "arriveTangent": -0.28481013,
+          "leaveTangent": -0.28481013
+        },
+        {
+          "interpMode": "cubic",
+          "tangentMode": "auto",
+          "time": 0.7,
+          "value": 0.8,
+          "arriveTangent": -0.99109653,
+          "leaveTangent": -0.99109653
+        },
+        {
+          "interpMode": "cubic",
+          "tangentMode": "auto",
           "time": 1,
-          "value": 0,
-          "arriveTangent": -5.0257854,
-          "leaveTangent": -5.0257854
+          "value": 0.33,
+          "arriveTangent": -1.56666667,
+          "leaveTangent": -1.56666667
         }
       ]
     },
@@ -2817,27 +3039,43 @@
       "antiPenetrationDurabilityScalarCurve": [
         {
           "interpMode": "cubic",
-          "tangentMode": "user",
+          "tangentMode": "auto",
           "time": 0,
           "value": 1,
-          "arriveTangent": -0.05760855,
-          "leaveTangent": -0.057608537
+          "arriveTangent": 0,
+          "leaveTangent": 0
         },
         {
           "interpMode": "cubic",
-          "tangentMode": "user",
-          "time": 0.75,
-          "value": 0.86,
-          "arriveTangent": -0.64953756,
-          "leaveTangent": -0.649537
+          "tangentMode": "auto",
+          "time": 0.2,
+          "value": 1,
+          "arriveTangent": 0,
+          "leaveTangent": 0
         },
         {
           "interpMode": "cubic",
-          "tangentMode": "user",
+          "tangentMode": "auto",
+          "time": 0.5,
+          "value": 0.95,
+          "arriveTangent": -0.28481013,
+          "leaveTangent": -0.28481013
+        },
+        {
+          "interpMode": "cubic",
+          "tangentMode": "auto",
+          "time": 0.7,
+          "value": 0.8,
+          "arriveTangent": -0.99109653,
+          "leaveTangent": -0.99109653
+        },
+        {
+          "interpMode": "cubic",
+          "tangentMode": "auto",
           "time": 1,
-          "value": 0,
-          "arriveTangent": -5.0257854,
-          "leaveTangent": -5.0257854
+          "value": 0.33,
+          "arriveTangent": -1.56666667,
+          "leaveTangent": -1.56666667
         }
       ]
     },
@@ -2946,27 +3184,35 @@
       "antiPenetrationDurabilityScalarCurve": [
         {
           "interpMode": "cubic",
-          "tangentMode": "user",
+          "tangentMode": "auto",
           "time": 0,
           "value": 1,
-          "arriveTangent": -0.057609,
-          "leaveTangent": -0.057609
+          "arriveTangent": 0,
+          "leaveTangent": 0
         },
         {
           "interpMode": "cubic",
-          "tangentMode": "user",
-          "time": 0.65,
-          "value": 0.833333,
-          "arriveTangent": -0.649538,
-          "leaveTangent": -0.649537
+          "tangentMode": "auto",
+          "time": 0.3,
+          "value": 1,
+          "arriveTangent": 0,
+          "leaveTangent": 0
         },
         {
           "interpMode": "cubic",
-          "tangentMode": "user",
+          "tangentMode": "auto",
+          "time": 0.7,
+          "value": 0.7,
+          "arriveTangent": -0.70391061,
+          "leaveTangent": -0.70391061
+        },
+        {
+          "interpMode": "cubic",
+          "tangentMode": "auto",
           "time": 1,
-          "value": 0,
-          "arriveTangent": -5.025785,
-          "leaveTangent": -5.025785
+          "value": 0.5,
+          "arriveTangent": -0.66666667,
+          "leaveTangent": -0.66666667
         }
       ]
     },
@@ -2988,7 +3234,7 @@
       "rarity": "Epic",
       "price": 63700,
       "weight": 5.3,
-      "armorClass": 5,
+      "armorClass": 4,
       "maxDurability": 130,
       "durabilityDamageScalar": 0.32,
       "bluntDamageScalar": 0.7,
@@ -3075,30 +3321,45 @@
       "antiPenetrationDurabilityScalarCurve": [
         {
           "interpMode": "cubic",
-          "tangentMode": "user",
+          "tangentMode": "auto",
           "time": 0,
           "value": 1,
-          "arriveTangent": -0.057609,
-          "leaveTangent": -0.057609
+          "arriveTangent": 0,
+          "leaveTangent": 0
         },
         {
           "interpMode": "cubic",
-          "tangentMode": "user",
-          "time": 0.65,
-          "value": 0.833333,
-          "arriveTangent": -0.649538,
-          "leaveTangent": -0.649537
+          "tangentMode": "auto",
+          "time": 0.2,
+          "value": 1,
+          "arriveTangent": 0,
+          "leaveTangent": 0
         },
         {
           "interpMode": "cubic",
-          "tangentMode": "user",
+          "tangentMode": "auto",
+          "time": 0.45,
+          "value": 0.95,
+          "arriveTangent": -0.32,
+          "leaveTangent": -0.32
+        },
+        {
+          "interpMode": "cubic",
+          "tangentMode": "auto",
+          "time": 0.7,
+          "value": 0.75,
+          "arriveTangent": -0.815822,
+          "leaveTangent": -0.815822
+        },
+        {
+          "interpMode": "cubic",
+          "tangentMode": "auto",
           "time": 1,
-          "value": 0,
-          "arriveTangent": -5.025785,
-          "leaveTangent": -5.025785
+          "value": 0.5,
+          "arriveTangent": -0.83333333,
+          "leaveTangent": -0.83333333
         }
       ]
-
     },
     "notes": "Festive limited edition armor with enhanced protection rating. The bells are surprisingly tactical.",
     "tips": "Special holiday armor with better protection than standard Rampage. Collectors item with practical benefits."
@@ -3118,7 +3379,7 @@
       "rarity": "Epic",
       "price": 63700,
       "weight": 5.3,
-      "armorClass": 5,
+      "armorClass": 4,
       "maxDurability": 130,
       "durabilityDamageScalar": 0.32,
       "bluntDamageScalar": 0.7,
@@ -3205,27 +3466,43 @@
       "antiPenetrationDurabilityScalarCurve": [
         {
           "interpMode": "cubic",
-          "tangentMode": "user",
+          "tangentMode": "auto",
           "time": 0,
           "value": 1,
-          "arriveTangent": -0.057609,
-          "leaveTangent": -0.057609
+          "arriveTangent": 0,
+          "leaveTangent": 0
         },
         {
           "interpMode": "cubic",
-          "tangentMode": "user",
-          "time": 0.65,
-          "value": 0.833333,
-          "arriveTangent": -0.649538,
-          "leaveTangent": -0.649537
+          "tangentMode": "auto",
+          "time": 0.2,
+          "value": 1,
+          "arriveTangent": 0,
+          "leaveTangent": 0
         },
         {
           "interpMode": "cubic",
-          "tangentMode": "user",
+          "tangentMode": "auto",
+          "time": 0.45,
+          "value": 0.95,
+          "arriveTangent": -0.32,
+          "leaveTangent": -0.32
+        },
+        {
+          "interpMode": "cubic",
+          "tangentMode": "auto",
+          "time": 0.7,
+          "value": 0.75,
+          "arriveTangent": -0.815822,
+          "leaveTangent": -0.815822
+        },
+        {
+          "interpMode": "cubic",
+          "tangentMode": "auto",
           "time": 1,
-          "value": 0,
-          "arriveTangent": -5.025785,
-          "leaveTangent": -5.025785
+          "value": 0.5,
+          "arriveTangent": -0.83333333,
+          "leaveTangent": -0.83333333
         }
       ]
     },
