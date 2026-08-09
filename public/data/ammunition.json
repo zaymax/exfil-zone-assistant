@@ -17,16 +17,16 @@
       "damage": 39,
       "penetration": 5.8,
       "muzzleVelocity": 101000,
-      "bleedingChance": 0.2,
-      "bluntDamageScale": 0.08,
-      "protectionGearPenetratedDamageScale": 0.99,
-      "protectionGearBluntDamageScale": 0.905,
+      "bleedingChance": 0.1,
+      "bluntDamageScale": 0.4,
+      "protectionGearPenetratedDamageScale": 1.35,
+      "protectionGearBluntDamageScale": 1.125,
       "caliber": "5.56x45",
       "damageAtRange": {
         "60m": 39,
         "120m": 39,
-        "240m": 32.7,
-        "480m": 28.8
+        "240m": 32.72,
+        "480m": 28.79
       },
       "penetrationAtRange": {
         "60m": 5.8,
@@ -107,25 +107,25 @@
       "rarity": "Ultimate",
       "price": 1480,
       "weight": 0.013,
-      "damage": 47,
-      "penetration": 4.6,
-      "muzzleVelocity": 98000,
-      "bleedingChance": 0.2,
-      "bluntDamageScale": 0.08,
-      "protectionGearPenetratedDamageScale": 0.576,
-      "protectionGearBluntDamageScale": 0.715,
+      "damage": 46,
+      "penetration": 5.3,
+      "muzzleVelocity": 101000,
+      "bleedingChance": 0.1,
+      "bluntDamageScale": 0.32,
+      "protectionGearPenetratedDamageScale": 1.05,
+      "protectionGearBluntDamageScale": 0.825,
       "caliber": "5.56x45",
       "damageAtRange": {
-        "60m": 47,
-        "120m": 47,
-        "240m": 36.6,
-        "480m": 30.9
+        "60m": 46,
+        "120m": 46,
+        "240m": 35.82,
+        "480m": 30.28
       },
       "penetrationAtRange": {
-        "60m": 4.6,
-        "120m": 4.6,
-        "240m": 3.59,
-        "480m": 3.03
+        "60m": 5.3,
+        "120m": 5.3,
+        "240m": 4.13,
+        "480m": 3.49
       },
       "ballisticCurves": {
         "damageOverDistance": [
@@ -133,7 +133,7 @@
             "interpMode": "linear",
             "tangentMode": "auto",
             "time": 0,
-            "value": 47,
+            "value": 46,
             "arriveTangent": 0,
             "leaveTangent": 0
           },
@@ -141,17 +141,17 @@
             "interpMode": "cubic",
             "tangentMode": "user",
             "time": 15000,
-            "value": 47,
-            "arriveTangent": -0.0016369104,
-            "leaveTangent": -0.0016302697
+            "value": 46,
+            "arriveTangent": -0.0016020825,
+            "leaveTangent": -0.0015955831
           },
           {
             "interpMode": "cubic",
             "tangentMode": "user",
             "time": 50000,
-            "value": 30.55,
-            "arriveTangent": -0.00023271405,
-            "leaveTangent": -0.00023271465
+            "value": 29.9,
+            "arriveTangent": -0.0002277627,
+            "leaveTangent": -0.0002277633
           }
         ],
         "penetrationPowerOverDistance": [
@@ -159,7 +159,7 @@
             "interpMode": "linear",
             "tangentMode": "auto",
             "time": 0,
-            "value": 4.6,
+            "value": 5.3,
             "arriveTangent": 0,
             "leaveTangent": 0
           },
@@ -167,17 +167,17 @@
             "interpMode": "cubic",
             "tangentMode": "user",
             "time": 15000,
-            "value": 4.6,
-            "arriveTangent": -0.00015837952,
-            "leaveTangent": -0.0001577669
+            "value": 5.3,
+            "arriveTangent": -0.0001824808,
+            "leaveTangent": -0.0001817749
           },
           {
             "interpMode": "cubic",
             "tangentMode": "user",
             "time": 50000,
-            "value": 2.99,
-            "arriveTangent": -0.00002130815,
-            "leaveTangent": -0.000021054826
+            "value": 3.445,
+            "arriveTangent": -0.0000245507,
+            "leaveTangent": -0.0000242588
           }
         ]
       }
@@ -293,24 +293,24 @@
       "rarity": "Rare",
       "price": 175,
       "weight": 0.012,
-      "damage": 58,
+      "damage": 62,
       "penetration": 2.4,
-      "muzzleVelocity": 94800,
-      "bleedingChance": 0.2,
-      "bluntDamageScale": 0.05,
-      "protectionGearPenetratedDamageScale": 0.24,
-      "protectionGearBluntDamageScale": 0.16,
+      "muzzleVelocity": 88000,
+      "bleedingChance": 0.1,
+      "bluntDamageScale": 0.14,
+      "protectionGearPenetratedDamageScale": 0.465,
+      "protectionGearBluntDamageScale": 0.285,
       "caliber": "5.56x45",
       "damageAtRange": {
-        "60m": 58,
-        "120m": 58,
-        "240m": 45.8,
-        "480m": 40.6
+        "60m": 62,
+        "120m": 62,
+        "240m": 46.94,
+        "480m": 43.4
       },
       "penetrationAtRange": {
         "60m": 2.4,
         "120m": 2.4,
-        "240m": 1.87,
+        "240m": 1.79,
         "480m": 1.68
       },
       "ballisticCurves": {
@@ -319,25 +319,25 @@
             "interpMode": "linear",
             "tangentMode": "auto",
             "time": 0,
-            "value": 58,
+            "value": 62,
             "arriveTangent": 0,
             "leaveTangent": 0
           },
           {
             "interpMode": "cubic",
             "tangentMode": "user",
-            "time": 14000,
-            "value": 58,
-            "arriveTangent": -0.0017461776,
-            "leaveTangent": -0.0017482173
+            "time": 12000,
+            "value": 62,
+            "arriveTangent": -0.0019910437,
+            "leaveTangent": -0.0019933694
           },
           {
             "interpMode": "cubic",
             "tangentMode": "user",
-            "time": 48000,
-            "value": 40.6,
-            "arriveTangent": -0.000070469534,
-            "leaveTangent": -0.000070469614
+            "time": 45000,
+            "value": 43.4,
+            "arriveTangent": -0.0000776122,
+            "leaveTangent": -0.0000776123
           }
         ],
         "penetrationPowerOverDistance": [
@@ -352,18 +352,18 @@
           {
             "interpMode": "cubic",
             "tangentMode": "user",
-            "time": 14000,
+            "time": 12000,
             "value": 2.4,
-            "arriveTangent": -0.00007728236,
-            "leaveTangent": -0.00007759273
+            "arriveTangent": -0.0000824345,
+            "leaveTangent": -0.0000827656
           },
           {
             "interpMode": "cubic",
             "tangentMode": "user",
-            "time": 48000,
+            "time": 45000,
             "value": 1.68,
-            "arriveTangent": -0.0000023104765,
-            "leaveTangent": -0.0000023104787
+            "arriveTangent": -0.0000023805,
+            "leaveTangent": -0.0000023805
           }
         ]
       }
@@ -389,21 +389,21 @@
       "damage": 73,
       "penetration": 1.2,
       "muzzleVelocity": 93000,
-      "bleedingChance": 0.28,
-      "bluntDamageScale": 0.02,
-      "protectionGearPenetratedDamageScale": 0.12,
-      "protectionGearBluntDamageScale": 0.1,
+      "bleedingChance": 0.15,
+      "bluntDamageScale": 0.1,
+      "protectionGearPenetratedDamageScale": 0.3375,
+      "protectionGearBluntDamageScale": 0.1875,
       "caliber": "5.56x45",
       "damageAtRange": {
         "60m": 73,
         "120m": 73,
-        "240m": 65.6,
-        "480m": 48.9
+        "240m": 55.06,
+        "480m": 48.91
       },
       "penetrationAtRange": {
         "60m": 1.2,
         "120m": 1.2,
-        "240m": 1.08,
+        "240m": 0.91,
         "480m": 0.8
       },
       "ballisticCurves": {
@@ -482,16 +482,16 @@
       "damage": 52,
       "penetration": 5.8,
       "muzzleVelocity": 87500,
-      "bleedingChance": 0.25,
-      "bluntDamageScale": 0.08,
-      "protectionGearPenetratedDamageScale": 0.98,
-      "protectionGearBluntDamageScale": 0.82,
+      "bleedingChance": 0.125,
+      "bluntDamageScale": 0.33,
+      "protectionGearPenetratedDamageScale": 1.05,
+      "protectionGearBluntDamageScale": 0.7425,
       "caliber": "7.62x39",
       "damageAtRange": {
         "60m": 52,
         "120m": 52,
-        "240m": 48.6,
-        "480m": 41.2
+        "240m": 48.64,
+        "480m": 41.25
       },
       "penetrationAtRange": {
         "60m": 5.8,
@@ -573,24 +573,24 @@
       "price": 770,
       "weight": 0.016,
       "damage": 57,
-      "penetration": 4.6,
+      "penetration": 4.7,
       "muzzleVelocity": 73000,
-      "bleedingChance": 0.25,
-      "bluntDamageScale": 0.08,
-      "protectionGearPenetratedDamageScale": 0.6125,
-      "protectionGearBluntDamageScale": 0.498,
+      "bleedingChance": 0.125,
+      "bluntDamageScale": 0.26,
+      "protectionGearPenetratedDamageScale": 0.975,
+      "protectionGearBluntDamageScale": 0.6225,
       "caliber": "7.62x39",
       "damageAtRange": {
         "60m": 57,
         "120m": 57,
-        "240m": 45,
-        "480m": 39.3
+        "240m": 44.98,
+        "480m": 39.33
       },
       "penetrationAtRange": {
-        "60m": 4.6,
-        "120m": 4.6,
-        "240m": 3.6,
-        "480m": 3.11
+        "60m": 4.7,
+        "120m": 4.7,
+        "240m": 3.73,
+        "480m": 3.24
       },
       "ballisticCurves": {
         "damageOverDistance": [
@@ -624,7 +624,7 @@
             "interpMode": "linear",
             "tangentMode": "auto",
             "time": 0,
-            "value": 4.6,
+            "value": 4.7,
             "arriveTangent": 0,
             "leaveTangent": 0
           },
@@ -632,17 +632,17 @@
             "interpMode": "cubic",
             "tangentMode": "user",
             "time": 14000,
-            "value": 4.6,
-            "arriveTangent": -0.00015173489,
-            "leaveTangent": -0.0001516723
+            "value": 4.7,
+            "arriveTangent": -0.0001478781,
+            "leaveTangent": -0.0001478171
           },
           {
             "interpMode": "cubic",
             "tangentMode": "user",
             "time": 44500,
-            "value": 3.105,
-            "arriveTangent": -0.000028046437,
-            "leaveTangent": -0.000028046437
+            "value": 3.243,
+            "arriveTangent": -0.0000273336,
+            "leaveTangent": -0.0000273336
           }
         ]
       }
@@ -665,19 +665,19 @@
       "rarity": "Epic",
       "price": 210,
       "weight": 0.016,
-      "damage": 62,
+      "damage": 67,
       "penetration": 2.6,
       "muzzleVelocity": 77000,
-      "bleedingChance": 0.25,
-      "bluntDamageScale": 0.05,
-      "protectionGearPenetratedDamageScale": 0.22,
-      "protectionGearBluntDamageScale": 0.16,
+      "bleedingChance": 0.125,
+      "bluntDamageScale": 0.12,
+      "protectionGearPenetratedDamageScale": 0.465,
+      "protectionGearBluntDamageScale": 0.285,
       "caliber": "7.62x39",
       "damageAtRange": {
-        "60m": 62,
-        "120m": 62,
-        "240m": 53,
-        "480m": 44.6
+        "60m": 67,
+        "120m": 67,
+        "240m": 57.27,
+        "480m": 48.24
       },
       "penetrationAtRange": {
         "60m": 2.6,
@@ -691,7 +691,7 @@
             "interpMode": "linear",
             "tangentMode": "auto",
             "time": 0,
-            "value": 62,
+            "value": 67,
             "arriveTangent": 0,
             "leaveTangent": 0
           },
@@ -699,17 +699,17 @@
             "interpMode": "cubic",
             "tangentMode": "user",
             "time": 17000,
-            "value": 62,
-            "arriveTangent": -0.001628715,
-            "leaveTangent": -0.0016287873
+            "value": 67,
+            "arriveTangent": -0.0017600628,
+            "leaveTangent": -0.0017601409
           },
           {
             "interpMode": "cubic",
             "tangentMode": "user",
             "time": 48000,
-            "value": 44.64,
-            "arriveTangent": -0.000070469534,
-            "leaveTangent": -0.000070469614
+            "value": 48.24,
+            "arriveTangent": -0.0000761526,
+            "leaveTangent": -0.0000761526
           }
         ],
         "penetrationPowerOverDistance": [
@@ -758,25 +758,25 @@
       "rarity": "Uncommon",
       "price": 160,
       "weight": 0.017,
-      "damage": 64,
+      "damage": 65,
       "penetration": 3.3,
       "muzzleVelocity": 72000,
-      "bleedingChance": 0.25,
-      "bluntDamageScale": 0.05,
-      "protectionGearPenetratedDamageScale": 0.2765,
-      "protectionGearBluntDamageScale": 0.211,
+      "bleedingChance": 0.125,
+      "bluntDamageScale": 0.17,
+      "protectionGearPenetratedDamageScale": 0.5925,
+      "protectionGearBluntDamageScale": 0.345,
       "caliber": "7.62x39",
       "damageAtRange": {
-        "60m": 64,
-        "120m": 64,
-        "240m": 52.9,
-        "480m": 46.1
+        "60m": 65,
+        "120m": 65,
+        "240m": 51.26,
+        "480m": 46.8
       },
       "penetrationAtRange": {
         "60m": 3.3,
         "120m": 3.3,
-        "240m": 2.72,
-        "480m": 2.23
+        "240m": 2.7,
+        "480m": 2.38
       },
       "ballisticCurves": {
         "damageOverDistance": [
@@ -784,25 +784,25 @@
             "interpMode": "linear",
             "tangentMode": "auto",
             "time": 0,
-            "value": 64,
+            "value": 65,
             "arriveTangent": 0,
             "leaveTangent": 0
           },
           {
             "interpMode": "cubic",
             "tangentMode": "user",
-            "time": 17000,
-            "value": 64,
-            "arriveTangent": -0.002155152,
-            "leaveTangent": -0.0021480373
+            "time": 15000,
+            "value": 65,
+            "arriveTangent": -0.0023104278,
+            "leaveTangent": -0.0023028005
           },
           {
             "interpMode": "cubic",
             "tangentMode": "user",
-            "time": 47500,
-            "value": 46.08,
-            "arriveTangent": -0.00017510029,
-            "leaveTangent": -0.00017572514
+            "time": 45000,
+            "value": 46.8,
+            "arriveTangent": -0.0001808002,
+            "leaveTangent": -0.0001814454
           }
         ],
         "penetrationPowerOverDistance": [
@@ -817,18 +817,18 @@
           {
             "interpMode": "cubic",
             "tangentMode": "user",
-            "time": 17000,
+            "time": 15000,
             "value": 3.3,
-            "arriveTangent": -0.000109076595,
-            "leaveTangent": -0.00010907551
+            "arriveTangent": -0.0000943696,
+            "leaveTangent": -0.0000943687
           },
           {
             "interpMode": "cubic",
             "tangentMode": "user",
             "time": 45000,
-            "value": 2.232,
-            "arriveTangent": -0.00001083765,
-            "leaveTangent": -0.0000108375925
+            "value": 2.376,
+            "arriveTangent": -0.0000087513,
+            "leaveTangent": -0.0000087513
           }
         ]
       }
@@ -853,23 +853,23 @@
       "weight": 0.016,
       "damage": 72,
       "penetration": 1.8,
-      "muzzleVelocity": 75000,
-      "bleedingChance": 0.34,
-      "bluntDamageScale": 0.02,
-      "protectionGearPenetratedDamageScale": 0.14,
-      "protectionGearBluntDamageScale": 0.12,
+      "muzzleVelocity": 77000,
+      "bleedingChance": 0.17,
+      "bluntDamageScale": 0.08,
+      "protectionGearPenetratedDamageScale": 0.3375,
+      "protectionGearBluntDamageScale": 0.1875,
       "caliber": "7.62x39",
       "damageAtRange": {
         "60m": 72,
         "120m": 72,
-        "240m": 66,
-        "480m": 49.7
+        "240m": 57.87,
+        "480m": 49.68
       },
       "penetrationAtRange": {
         "60m": 1.8,
         "120m": 1.8,
-        "240m": 1.65,
-        "480m": 1.24
+        "240m": 1.56,
+        "480m": 1.38
       },
       "ballisticCurves": {
         "damageOverDistance": [
@@ -912,16 +912,16 @@
             "tangentMode": "user",
             "time": 16000,
             "value": 1.8,
-            "arriveTangent": -0.000058564536,
-            "leaveTangent": -0.00005863028
+            "arriveTangent": -0.0000440808,
+            "leaveTangent": -0.0000441303
           },
           {
-            "interpMode": "linear",
+            "interpMode": "cubic",
             "tangentMode": "auto",
             "time": 46000,
-            "value": 1.242,
-            "arriveTangent": 0,
-            "leaveTangent": 0
+            "value": 1.38,
+            "arriveTangent": -0.000014,
+            "leaveTangent": -0.000014
           }
         ]
       }
@@ -944,25 +944,25 @@
       "rarity": "Ultimate",
       "price": 2608,
       "weight": 0.025,
-      "damage": 69,
-      "penetration": 6.8,
+      "damage": 63,
+      "penetration": 6.5,
       "muzzleVelocity": 91000,
-      "bleedingChance": 0.25,
-      "bluntDamageScale": 0.08,
-      "protectionGearPenetratedDamageScale": 1,
-      "protectionGearBluntDamageScale": 0.8475,
+      "bleedingChance": 0.125,
+      "bluntDamageScale": 0.28,
+      "protectionGearPenetratedDamageScale": 1.2,
+      "protectionGearBluntDamageScale": 0.7425,
       "caliber": "7.62x51",
       "damageAtRange": {
-        "60m": 69,
-        "120m": 69,
-        "240m": 66,
-        "480m": 58
+        "60m": 63,
+        "120m": 63,
+        "240m": 60.22,
+        "480m": 52.92
       },
       "penetrationAtRange": {
-        "60m": 6.8,
-        "120m": 6.8,
-        "240m": 6.21,
-        "480m": 5.59
+        "60m": 6.5,
+        "120m": 6.5,
+        "240m": 6.19,
+        "480m": 5.38
       },
       "ballisticCurves": {
         "damageOverDistance": [
@@ -970,7 +970,7 @@
             "interpMode": "linear",
             "tangentMode": "auto",
             "time": 0,
-            "value": 69,
+            "value": 63,
             "arriveTangent": 0,
             "leaveTangent": 0
           },
@@ -978,17 +978,17 @@
             "interpMode": "cubic",
             "tangentMode": "user",
             "time": 20000,
-            "value": 69,
-            "arriveTangent": -0.0008488344,
-            "leaveTangent": -0.0008501331
+            "value": 63,
+            "arriveTangent": -0.0007750226,
+            "leaveTangent": -0.0007762084
           },
           {
             "interpMode": "cubic",
             "tangentMode": "user",
             "time": 65000,
-            "value": 55.2,
-            "arriveTangent": -0.00026420303,
-            "leaveTangent": -0.00026767878
+            "value": 50.4,
+            "arriveTangent": -0.0002412288,
+            "leaveTangent": -0.0002444023
           }
         ],
         "penetrationPowerOverDistance": [
@@ -996,25 +996,25 @@
             "interpMode": "linear",
             "tangentMode": "auto",
             "time": 0,
-            "value": 6.8,
+            "value": 6.5,
             "arriveTangent": 0,
             "leaveTangent": 0
           },
           {
             "interpMode": "cubic",
             "tangentMode": "user",
-            "time": 16000,
-            "value": 6.8,
-            "arriveTangent": -0.00009058903,
-            "leaveTangent": -0.00009058903
+            "time": 20000,
+            "value": 6.5,
+            "arriveTangent": -0.0000865925,
+            "leaveTangent": -0.0000865925
           },
           {
             "interpMode": "cubic",
             "tangentMode": "user",
             "time": 65000,
-            "value": 5.44,
-            "arriveTangent": -0.000016461672,
-            "leaveTangent": -0.00001666102
+            "value": 5.2,
+            "arriveTangent": -0.0000171341,
+            "leaveTangent": -0.0000173416
           }
         ]
       }
@@ -1037,25 +1037,25 @@
       "rarity": "Ultimate",
       "price": 2133,
       "weight": 0.025,
-      "damage": 72,
-      "penetration": 5.3,
+      "damage": 69,
+      "penetration": 6,
       "muzzleVelocity": 82000,
-      "bleedingChance": 0.25,
-      "bluntDamageScale": 0.08,
-      "protectionGearPenetratedDamageScale": 0.615,
-      "protectionGearBluntDamageScale": 0.494,
+      "bleedingChance": 0.125,
+      "bluntDamageScale": 0.24,
+      "protectionGearPenetratedDamageScale": 0.9,
+      "protectionGearBluntDamageScale": 0.6225,
       "caliber": "7.62x51",
       "damageAtRange": {
-        "60m": 72,
-        "120m": 72,
-        "240m": 61.6,
-        "480m": 51
+        "60m": 69,
+        "120m": 69,
+        "240m": 59.08,
+        "480m": 48.88
       },
       "penetrationAtRange": {
-        "60m": 5.3,
-        "120m": 5.3,
-        "240m": 4.64,
-        "480m": 3.78
+        "60m": 6,
+        "120m": 6,
+        "240m": 5.25,
+        "480m": 4.28
       },
       "ballisticCurves": {
         "damageOverDistance": [
@@ -1063,7 +1063,7 @@
             "interpMode": "linear",
             "tangentMode": "auto",
             "time": 0,
-            "value": 72,
+            "value": 69,
             "arriveTangent": 0,
             "leaveTangent": 0
           },
@@ -1071,17 +1071,17 @@
             "interpMode": "cubic",
             "tangentMode": "user",
             "time": 18000,
-            "value": 72,
-            "arriveTangent": -0.0021525433,
-            "leaveTangent": -0.0021525417
+            "value": 69,
+            "arriveTangent": -0.0020628541,
+            "leaveTangent": -0.0020628526
           },
           {
             "interpMode": "cubic",
             "tangentMode": "user",
             "time": 52000,
-            "value": 50.4,
-            "arriveTangent": -0.00021492835,
-            "leaveTangent": -0.00021314263
+            "value": 48.3,
+            "arriveTangent": -0.000205973,
+            "leaveTangent": -0.0002042617
           }
         ],
         "penetrationPowerOverDistance": [
@@ -1089,7 +1089,7 @@
             "interpMode": "linear",
             "tangentMode": "auto",
             "time": 0,
-            "value": 5.3,
+            "value": 6,
             "arriveTangent": 0,
             "leaveTangent": 0
           },
@@ -1097,17 +1097,17 @@
             "interpMode": "cubic",
             "tangentMode": "user",
             "time": 18000,
-            "value": 5.3,
-            "arriveTangent": -0.00013497686,
-            "leaveTangent": -0.00013498042
+            "value": 6,
+            "arriveTangent": -0.000152804,
+            "leaveTangent": -0.000152808
           },
           {
             "interpMode": "cubic",
             "tangentMode": "user",
             "time": 52000,
-            "value": 3.71,
-            "arriveTangent": -0.000021334334,
-            "leaveTangent": -0.000020913692
+            "value": 4.2,
+            "arriveTangent": -0.0000241521,
+            "leaveTangent": -0.0000236759
           }
         ]
       }
@@ -1130,25 +1130,25 @@
       "rarity": "Legendary",
       "price": 895,
       "weight": 0.026,
-      "damage": 79,
-      "penetration": 4.4,
-      "muzzleVelocity": 88000,
-      "bleedingChance": 0.25,
-      "bluntDamageScale": 0.05,
-      "protectionGearPenetratedDamageScale": 0.3385,
-      "protectionGearBluntDamageScale": 0.249,
+      "damage": 82,
+      "penetration": 4.3,
+      "muzzleVelocity": 80000,
+      "bleedingChance": 0.125,
+      "bluntDamageScale": 0.13,
+      "protectionGearPenetratedDamageScale": 0.5925,
+      "protectionGearBluntDamageScale": 0.4125,
       "caliber": "7.62x51",
       "damageAtRange": {
-        "60m": 79,
-        "120m": 79,
-        "240m": 71.8,
-        "480m": 59.5
+        "60m": 82,
+        "120m": 82,
+        "240m": 74.5,
+        "480m": 61.77
       },
       "penetrationAtRange": {
-        "60m": 4.4,
-        "120m": 4.4,
-        "240m": 3.9,
-        "480m": 3.31
+        "60m": 4.3,
+        "120m": 4.3,
+        "240m": 3.81,
+        "480m": 3.23
       },
       "ballisticCurves": {
         "damageOverDistance": [
@@ -1156,7 +1156,7 @@
             "interpMode": "linear",
             "tangentMode": "auto",
             "time": 0,
-            "value": 79,
+            "value": 82,
             "arriveTangent": 0,
             "leaveTangent": 0
           },
@@ -1164,17 +1164,17 @@
             "interpMode": "cubic",
             "tangentMode": "user",
             "time": 17300,
-            "value": 79,
-            "arriveTangent": -0.0012196267,
-            "leaveTangent": -0.0012196267
+            "value": 82,
+            "arriveTangent": -0.0012659416,
+            "leaveTangent": -0.0012659416
           },
           {
             "interpMode": "cubic",
             "tangentMode": "user",
             "time": 51000,
-            "value": 59.25,
-            "arriveTangent": -0.000044347344,
-            "leaveTangent": -0.000045567554
+            "value": 61.5,
+            "arriveTangent": -0.0000460314,
+            "leaveTangent": -0.000047298
           }
         ],
         "penetrationPowerOverDistance": [
@@ -1182,7 +1182,7 @@
             "interpMode": "linear",
             "tangentMode": "auto",
             "time": 0,
-            "value": 4.4,
+            "value": 4.3,
             "arriveTangent": 0,
             "leaveTangent": 0
           },
@@ -1190,17 +1190,17 @@
             "interpMode": "cubic",
             "tangentMode": "user",
             "time": 17300,
-            "value": 4.4,
-            "arriveTangent": -0.00008959667,
-            "leaveTangent": -0.00008959667
+            "value": 4.3,
+            "arriveTangent": -0.0000875604,
+            "leaveTangent": -0.0000875604
           },
           {
             "interpMode": "cubic",
             "tangentMode": "user",
             "time": 51000,
-            "value": 3.3,
-            "arriveTangent": -0.0000016875657,
-            "leaveTangent": -0.0000016714687
+            "value": 3.225,
+            "arriveTangent": -0.0000016492,
+            "leaveTangent": -0.0000016335
           }
         ]
       }
@@ -1223,19 +1223,19 @@
       "rarity": "Epic",
       "price": 515,
       "weight": 0.025,
-      "damage": 82,
+      "damage": 83,
       "penetration": 3.6,
       "muzzleVelocity": 84000,
-      "bleedingChance": 0.25,
-      "bluntDamageScale": 0.05,
-      "protectionGearPenetratedDamageScale": 0.223,
-      "protectionGearBluntDamageScale": 0.1615,
+      "bleedingChance": 0.125,
+      "bluntDamageScale": 0.1,
+      "protectionGearPenetratedDamageScale": 0.465,
+      "protectionGearBluntDamageScale": 0.33,
       "caliber": "7.62x51",
       "damageAtRange": {
-        "60m": 82,
-        "120m": 82,
-        "240m": 74.9,
-        "480m": 62
+        "60m": 83,
+        "120m": 83,
+        "240m": 75.83,
+        "480m": 62.76
       },
       "penetrationAtRange": {
         "60m": 3.6,
@@ -1249,7 +1249,7 @@
             "interpMode": "linear",
             "tangentMode": "auto",
             "time": 0,
-            "value": 82,
+            "value": 83,
             "arriveTangent": 0,
             "leaveTangent": 0
           },
@@ -1257,17 +1257,17 @@
             "interpMode": "cubic",
             "tangentMode": "user",
             "time": 19000,
-            "value": 82,
-            "arriveTangent": -0.0016306195,
-            "leaveTangent": -0.0016306195
+            "value": 83,
+            "arriveTangent": -0.0016505051,
+            "leaveTangent": -0.0016505051
           },
           {
             "interpMode": "cubic",
             "tangentMode": "user",
             "time": 54000,
-            "value": 61.5,
-            "arriveTangent": -0.000070469534,
-            "leaveTangent": -0.000070469614
+            "value": 62.25,
+            "arriveTangent": -0.0000713289,
+            "leaveTangent": -0.000071329
           }
         ],
         "penetrationPowerOverDistance": [
@@ -1316,25 +1316,25 @@
       "rarity": "Common",
       "price": 195,
       "weight": 0.025,
-      "damage": 89,
-      "penetration": 2.7,
+      "damage": 86,
+      "penetration": 2.5,
       "muzzleVelocity": 79000,
-      "bleedingChance": 0.37,
-      "bluntDamageScale": 0.02,
-      "protectionGearPenetratedDamageScale": 0.16,
-      "protectionGearBluntDamageScale": 0.13,
+      "bleedingChance": 0.15,
+      "bluntDamageScale": 0.08,
+      "protectionGearPenetratedDamageScale": 0.3375,
+      "protectionGearBluntDamageScale": 0.24,
       "caliber": "7.62x51",
       "damageAtRange": {
-        "60m": 89,
-        "120m": 89,
-        "240m": 83.3,
-        "480m": 63.9
+        "60m": 86,
+        "120m": 86,
+        "240m": 76.12,
+        "480m": 61.65
       },
       "penetrationAtRange": {
-        "60m": 2.7,
-        "120m": 2.7,
-        "240m": 2.57,
-        "480m": 2.14
+        "60m": 2.5,
+        "120m": 2.5,
+        "240m": 2.11,
+        "480m": 1.79
       },
       "ballisticCurves": {
         "damageOverDistance": [
@@ -1342,7 +1342,7 @@
             "interpMode": "linear",
             "tangentMode": "auto",
             "time": 0,
-            "value": 89,
+            "value": 86,
             "arriveTangent": 0,
             "leaveTangent": 0
           },
@@ -1350,17 +1350,17 @@
             "interpMode": "cubic",
             "tangentMode": "user",
             "time": 17000,
-            "value": 89,
-            "arriveTangent": -0.0018580522,
-            "leaveTangent": -0.0018579824
+            "value": 86,
+            "arriveTangent": -0.0017954212,
+            "leaveTangent": -0.0017953537
           },
           {
-            "interpMode": "linear",
+            "interpMode": "cubic",
             "tangentMode": "auto",
             "time": 50000,
-            "value": 62.3,
-            "arriveTangent": 0,
-            "leaveTangent": 0
+            "value": 60.2,
+            "arriveTangent": -0.0007818182,
+            "leaveTangent": -0.0007818182
           }
         ],
         "penetrationPowerOverDistance": [
@@ -1368,7 +1368,7 @@
             "interpMode": "linear",
             "tangentMode": "auto",
             "time": 0,
-            "value": 2.7,
+            "value": 2.5,
             "arriveTangent": 0,
             "leaveTangent": 0
           },
@@ -1376,17 +1376,17 @@
             "interpMode": "cubic",
             "tangentMode": "user",
             "time": 17000,
-            "value": 2.7,
-            "arriveTangent": -0.00006156093,
-            "leaveTangent": -0.00006156091
+            "value": 2.5,
+            "arriveTangent": -0.0000769512,
+            "leaveTangent": -0.0000769511
           },
           {
-            "interpMode": "linear",
+            "interpMode": "cubic",
             "tangentMode": "auto",
             "time": 50000,
-            "value": 2.1,
-            "arriveTangent": 0,
-            "leaveTangent": 0
+            "value": 1.75,
+            "arriveTangent": -0.0000227273,
+            "leaveTangent": -0.0000227273
           }
         ]
       }
@@ -1410,24 +1410,24 @@
       "price": 270,
       "weight": 0.008,
       "damage": 53,
-      "penetration": 3.7,
+      "penetration": 3.4,
       "muzzleVelocity": 41000,
-      "bleedingChance": 0.15,
-      "bluntDamageScale": 0.04,
-      "protectionGearPenetratedDamageScale": 0.64,
-      "protectionGearBluntDamageScale": 0.498,
+      "bleedingChance": 0.075,
+      "bluntDamageScale": 0,
+      "protectionGearPenetratedDamageScale": 0.5625,
+      "protectionGearBluntDamageScale": 0.5025,
       "caliber": "9x19",
       "damageAtRange": {
         "60m": 53,
-        "120m": 44,
-        "240m": 31.4,
-        "480m": 22.8
+        "120m": 43.95,
+        "240m": 31.44,
+        "480m": 22.79
       },
       "penetrationAtRange": {
-        "60m": 3.7,
-        "120m": 3.13,
-        "240m": 2.21,
-        "480m": 1.59
+        "60m": 3.4,
+        "120m": 2.88,
+        "240m": 2.03,
+        "480m": 1.46
       },
       "ballisticCurves": {
         "damageOverDistance": [
@@ -1461,7 +1461,7 @@
             "interpMode": "linear",
             "tangentMode": "auto",
             "time": 0,
-            "value": 3.7,
+            "value": 3.4,
             "arriveTangent": 0,
             "leaveTangent": 0
           },
@@ -1469,17 +1469,17 @@
             "interpMode": "cubic",
             "tangentMode": "user",
             "time": 8000,
-            "value": 3.7,
-            "arriveTangent": -0.00016431152,
-            "leaveTangent": -0.0001648994
+            "value": 3.4,
+            "arriveTangent": -0.000150989,
+            "leaveTangent": -0.0001515292
           },
           {
             "interpMode": "cubic",
             "tangentMode": "user",
             "time": 36000,
-            "value": 1.591,
-            "arriveTangent": -0.00006911803,
-            "leaveTangent": -0.00006969796
+            "value": 1.462,
+            "arriveTangent": -0.0000635139,
+            "leaveTangent": -0.0000640468
           }
         ]
       }
@@ -1502,25 +1502,25 @@
       "rarity": "Rare",
       "price": 75,
       "weight": 0.008,
-      "damage": 55,
-      "penetration": 2.2,
+      "damage": 56,
+      "penetration": 1.8,
       "muzzleVelocity": 37000,
-      "bleedingChance": 0.15,
-      "bluntDamageScale": 0.02,
-      "protectionGearPenetratedDamageScale": 0.236,
-      "protectionGearBluntDamageScale": 0.154,
+      "bleedingChance": 0.075,
+      "bluntDamageScale": 0.16,
+      "protectionGearPenetratedDamageScale": 0.55,
+      "protectionGearBluntDamageScale": 0.43,
       "caliber": "9x19",
       "damageAtRange": {
-        "60m": 55,
-        "120m": 40.9,
-        "240m": 28,
+        "60m": 56,
+        "120m": 42.15,
+        "240m": 28.91,
         "480m": 22
       },
       "penetrationAtRange": {
-        "60m": 2.2,
-        "120m": 1.55,
-        "240m": 0.99,
-        "480m": 0.88
+        "60m": 1.8,
+        "120m": 1.29,
+        "240m": 0.83,
+        "480m": 0.72
       },
       "ballisticCurves": {
         "damageOverDistance": [
@@ -1528,7 +1528,7 @@
             "interpMode": "linear",
             "tangentMode": "auto",
             "time": 0,
-            "value": 55,
+            "value": 56,
             "arriveTangent": 0,
             "leaveTangent": 0
           },
@@ -1536,17 +1536,17 @@
             "interpMode": "cubic",
             "tangentMode": "user",
             "time": 6500,
-            "value": 55,
-            "arriveTangent": -0.0032732922,
-            "leaveTangent": -0.0032793467
+            "value": 56,
+            "arriveTangent": -0.0031741015,
+            "leaveTangent": -0.0031799726
           },
           {
             "interpMode": "cubic",
             "tangentMode": "user",
-            "time": 32000,
+            "time": 34000,
             "value": 22,
-            "arriveTangent": -0.00104625,
-            "leaveTangent": -0.0010679082
+            "arriveTangent": -0.0009995579,
+            "leaveTangent": -0.0010202495
           }
         ],
         "penetrationPowerOverDistance": [
@@ -1554,7 +1554,7 @@
             "interpMode": "linear",
             "tangentMode": "auto",
             "time": 0,
-            "value": 2.2,
+            "value": 1.8,
             "arriveTangent": 0,
             "leaveTangent": 0
           },
@@ -1562,17 +1562,17 @@
             "interpMode": "cubic",
             "tangentMode": "user",
             "time": 6500,
-            "value": 2.2,
-            "arriveTangent": -0.00014988765,
-            "leaveTangent": -0.00014983668
+            "value": 1.8,
+            "arriveTangent": -0.0001154215,
+            "leaveTangent": -0.0001153823
           },
           {
             "interpMode": "cubic",
             "tangentMode": "user",
-            "time": 32000,
-            "value": 0.88,
-            "arriveTangent": -0.000017057757,
-            "leaveTangent": -0.000017293378
+            "time": 34000,
+            "value": 0.72,
+            "arriveTangent": -0.0000129413,
+            "leaveTangent": -0.0000131201
           }
         ]
       }
@@ -1596,24 +1596,24 @@
       "price": 65,
       "weight": 0.008,
       "damage": 58,
-      "penetration": 1.6,
-      "muzzleVelocity": 39000,
-      "bleedingChance": 0.15,
-      "bluntDamageScale": 0.02,
-      "protectionGearPenetratedDamageScale": 0.15,
-      "protectionGearBluntDamageScale": 0.085,
+      "penetration": 1.4,
+      "muzzleVelocity": 37000,
+      "bleedingChance": 0.075,
+      "bluntDamageScale": 0.14,
+      "protectionGearPenetratedDamageScale": 0.315,
+      "protectionGearBluntDamageScale": 0.2475,
       "caliber": "9x19",
       "damageAtRange": {
         "60m": 58,
-        "120m": 46.3,
-        "240m": 32.3,
+        "120m": 45.68,
+        "240m": 31.52,
         "480m": 26.1
       },
       "penetrationAtRange": {
-        "60m": 1.6,
-        "120m": 1.27,
-        "240m": 0.88,
-        "480m": 0.72
+        "60m": 1.4,
+        "120m": 1.09,
+        "240m": 0.76,
+        "480m": 0.63
       },
       "ballisticCurves": {
         "damageOverDistance": [
@@ -1630,16 +1630,16 @@
             "tangentMode": "user",
             "time": 7000,
             "value": 58,
-            "arriveTangent": -0.002835293,
-            "leaveTangent": -0.0028364887
+            "arriveTangent": -0.0030124988,
+            "leaveTangent": -0.0030137692
           },
           {
             "interpMode": "cubic",
             "tangentMode": "user",
-            "time": 34000,
+            "time": 32000,
             "value": 26.1,
-            "arriveTangent": -0.00073965755,
-            "leaveTangent": -0.0007313785
+            "arriveTangent": -0.0007988302,
+            "leaveTangent": -0.0007898888
           }
         ],
         "penetrationPowerOverDistance": [
@@ -1647,7 +1647,7 @@
             "interpMode": "linear",
             "tangentMode": "auto",
             "time": 0,
-            "value": 1.6,
+            "value": 1.4,
             "arriveTangent": 0,
             "leaveTangent": 0
           },
@@ -1655,17 +1655,17 @@
             "interpMode": "cubic",
             "tangentMode": "user",
             "time": 7000,
-            "value": 1.6,
-            "arriveTangent": -0.00008166784,
-            "leaveTangent": -0.00008170489
+            "value": 1.4,
+            "arriveTangent": -0.0000759256,
+            "leaveTangent": -0.00007596
           },
           {
             "interpMode": "cubic",
             "tangentMode": "user",
-            "time": 34000,
-            "value": 0.72,
-            "arriveTangent": -0.000020739026,
-            "leaveTangent": -0.000020789426
+            "time": 32000,
+            "value": 0.63,
+            "arriveTangent": -0.0000195984,
+            "leaveTangent": -0.000019646
           }
         ]
       }
@@ -1691,21 +1691,21 @@
       "damage": 65,
       "penetration": 0.9,
       "muzzleVelocity": 35000,
-      "bleedingChance": 0.25,
-      "bluntDamageScale": 0.02,
-      "protectionGearPenetratedDamageScale": 0.08,
-      "protectionGearBluntDamageScale": 0.06,
+      "bleedingChance": 0.125,
+      "bluntDamageScale": 0.14,
+      "protectionGearPenetratedDamageScale": 0.2625,
+      "protectionGearBluntDamageScale": 0.24,
       "caliber": "9x19",
       "damageAtRange": {
         "60m": 65,
-        "120m": 49.2,
-        "240m": 31.2,
-        "480m": 29.3
+        "120m": 49.17,
+        "240m": 31.18,
+        "480m": 29.25
       },
       "penetrationAtRange": {
         "60m": 0.9,
-        "120m": 0.85,
-        "240m": 0.74,
+        "120m": 0.79,
+        "240m": 0.69,
         "480m": 0.68
       },
       "ballisticCurves": {
@@ -1781,25 +1781,25 @@
       "rarity": "Ultimate",
       "price": 1164,
       "weight": 0.012,
-      "damage": 45,
-      "penetration": 5.6,
+      "damage": 38,
+      "penetration": 6.2,
       "muzzleVelocity": 91000,
-      "bleedingChance": 0.19,
-      "bluntDamageScale": 0.08,
-      "protectionGearPenetratedDamageScale": 0.97,
-      "protectionGearBluntDamageScale": 0.84,
+      "bleedingChance": 0.095,
+      "bluntDamageScale": 0.33,
+      "protectionGearPenetratedDamageScale": 1.35,
+      "protectionGearBluntDamageScale": 1.125,
       "caliber": "5.45x39",
       "damageAtRange": {
-        "60m": 45,
-        "120m": 45,
-        "240m": 37.2,
-        "480m": 32.6
+        "60m": 38,
+        "120m": 38,
+        "240m": 31.38,
+        "480m": 27.53
       },
       "penetrationAtRange": {
-        "60m": 5.6,
-        "120m": 5.6,
-        "240m": 4.6,
-        "480m": 4.05
+        "60m": 6.2,
+        "120m": 6.2,
+        "240m": 5.09,
+        "480m": 4.48
       },
       "ballisticCurves": {
         "damageOverDistance": [
@@ -1807,7 +1807,7 @@
             "interpMode": "linear",
             "tangentMode": "auto",
             "time": 0,
-            "value": 45,
+            "value": 38,
             "arriveTangent": 0,
             "leaveTangent": 0
           },
@@ -1815,17 +1815,17 @@
             "interpMode": "cubic",
             "tangentMode": "user",
             "time": 16000,
-            "value": 45,
-            "arriveTangent": -0.0013369703,
-            "leaveTangent": -0.0013373316
+            "value": 38,
+            "arriveTangent": -0.001128997,
+            "leaveTangent": -0.0011293021
           },
           {
             "interpMode": "cubic",
             "tangentMode": "user",
             "time": 50000,
-            "value": 32.4,
-            "arriveTangent": -0.00012840195,
-            "leaveTangent": -0.00012929822
+            "value": 27.36,
+            "arriveTangent": -0.0001084283,
+            "leaveTangent": -0.0001091852
           }
         ],
         "penetrationPowerOverDistance": [
@@ -1833,7 +1833,7 @@
             "interpMode": "linear",
             "tangentMode": "auto",
             "time": 0,
-            "value": 5.6,
+            "value": 6.2,
             "arriveTangent": 0,
             "leaveTangent": 0
           },
@@ -1841,17 +1841,17 @@
             "interpMode": "cubic",
             "tangentMode": "user",
             "time": 16000,
-            "value": 5.6,
-            "arriveTangent": -0.00017109337,
-            "leaveTangent": -0.00017114278
+            "value": 6.2,
+            "arriveTangent": -0.0001894248,
+            "leaveTangent": -0.0001894795
           },
           {
             "interpMode": "cubic",
             "tangentMode": "user",
             "time": 50000,
-            "value": 4.032,
-            "arriveTangent": -0.000012381065,
-            "leaveTangent": -0.000012519635
+            "value": 4.464,
+            "arriveTangent": -0.0000137076,
+            "leaveTangent": -0.000013861
           }
         ]
       }
@@ -1874,25 +1874,25 @@
       "rarity": "Legendary",
       "price": 1164,
       "weight": 0.012,
-      "damage": 51,
-      "penetration": 4.5,
-      "muzzleVelocity": 89500,
-      "bleedingChance": 0.19,
-      "bluntDamageScale": 0.08,
-      "protectionGearPenetratedDamageScale": 0.71,
-      "protectionGearBluntDamageScale": 0.57,
+      "damage": 46,
+      "penetration": 5.5,
+      "muzzleVelocity": 83000,
+      "bleedingChance": 0.095,
+      "bluntDamageScale": 0.33,
+      "protectionGearPenetratedDamageScale": 1.05,
+      "protectionGearBluntDamageScale": 0.825,
       "caliber": "5.45x39",
       "damageAtRange": {
-        "60m": 51,
-        "120m": 51,
-        "240m": 38.6,
-        "480m": 33.2
+        "60m": 46,
+        "120m": 46,
+        "240m": 38.65,
+        "480m": 33.31
       },
       "penetrationAtRange": {
-        "60m": 4.5,
-        "120m": 4.5,
-        "240m": 3.27,
-        "480m": 2.8
+        "60m": 5.5,
+        "120m": 5.5,
+        "240m": 4.61,
+        "480m": 3.99
       },
       "ballisticCurves": {
         "damageOverDistance": [
@@ -1900,25 +1900,25 @@
             "interpMode": "linear",
             "tangentMode": "auto",
             "time": 0,
-            "value": 51,
+            "value": 46,
             "arriveTangent": 0,
             "leaveTangent": 0
           },
           {
             "interpMode": "cubic",
             "tangentMode": "user",
-            "time": 14500,
-            "value": 51,
-            "arriveTangent": -0.0019198243,
-            "leaveTangent": -0.0019198845
+            "time": 16000,
+            "value": 46,
+            "arriveTangent": -0.0012190509,
+            "leaveTangent": -0.0012190891
           },
           {
             "interpMode": "cubic",
             "tangentMode": "user",
-            "time": 44000,
-            "value": 33.15,
-            "arriveTangent": -0.00017940326,
-            "leaveTangent": -0.00016992407
+            "time": 50000,
+            "value": 33.12,
+            "arriveTangent": -0.0001123185,
+            "leaveTangent": -0.0001063838
           }
         ],
         "penetrationPowerOverDistance": [
@@ -1926,25 +1926,25 @@
             "interpMode": "linear",
             "tangentMode": "auto",
             "time": 0,
-            "value": 4.5,
+            "value": 5.5,
             "arriveTangent": 0,
             "leaveTangent": 0
           },
           {
             "interpMode": "cubic",
             "tangentMode": "user",
-            "time": 14000,
-            "value": 4.5,
-            "arriveTangent": -0.00018784039,
-            "leaveTangent": -0.00018784039
+            "time": 16000,
+            "value": 5.5,
+            "arriveTangent": -0.0001493028,
+            "leaveTangent": -0.0001493028
           },
           {
             "interpMode": "cubic",
             "tangentMode": "user",
-            "time": 44000,
-            "value": 2.795,
-            "arriveTangent": -0.000021356069,
-            "leaveTangent": -0.000021029604
+            "time": 50000,
+            "value": 3.96,
+            "arriveTangent": -0.00001702,
+            "leaveTangent": -0.0000167598
           }
         ]
       }
@@ -1967,25 +1967,25 @@
       "rarity": "Epic",
       "price": 285,
       "weight": 0.012,
-      "damage": 53,
-      "penetration": 3.6,
-      "muzzleVelocity": 88000,
-      "bleedingChance": 0.19,
-      "bluntDamageScale": 0.05,
-      "protectionGearPenetratedDamageScale": 0.386,
-      "protectionGearBluntDamageScale": 0.274,
+      "damage": 58,
+      "penetration": 3,
+      "muzzleVelocity": 88500,
+      "bleedingChance": 0.095,
+      "bluntDamageScale": 0.16,
+      "protectionGearPenetratedDamageScale": 0.5925,
+      "protectionGearBluntDamageScale": 0.345,
       "caliber": "5.45x39",
       "damageAtRange": {
-        "60m": 53,
-        "120m": 53,
-        "240m": 41.7,
-        "480m": 37.1
+        "60m": 58,
+        "120m": 58,
+        "240m": 45.9,
+        "480m": 40.6
       },
       "penetrationAtRange": {
-        "60m": 3.6,
-        "120m": 3.6,
-        "240m": 2.85,
-        "480m": 2.52
+        "60m": 3,
+        "120m": 3,
+        "240m": 2.39,
+        "480m": 2.1
       },
       "ballisticCurves": {
         "damageOverDistance": [
@@ -1993,25 +1993,25 @@
             "interpMode": "linear",
             "tangentMode": "auto",
             "time": 0,
-            "value": 53,
+            "value": 58,
             "arriveTangent": 0,
             "leaveTangent": 0
           },
           {
             "interpMode": "cubic",
             "tangentMode": "user",
-            "time": 14000,
-            "value": 53,
-            "arriveTangent": -0.0017306278,
-            "leaveTangent": -0.0017335996
+            "time": 14200,
+            "value": 58,
+            "arriveTangent": -0.0018721259,
+            "leaveTangent": -0.0018753407
           },
           {
             "interpMode": "cubic",
             "tangentMode": "user",
-            "time": 43000,
-            "value": 37.1,
-            "arriveTangent": -0.0002454113,
-            "leaveTangent": -0.00024953048
+            "time": 43500,
+            "value": 40.6,
+            "arriveTangent": -0.0002658135,
+            "leaveTangent": -0.0002702752
           }
         ],
         "penetrationPowerOverDistance": [
@@ -2019,25 +2019,25 @@
             "interpMode": "linear",
             "tangentMode": "auto",
             "time": 0,
-            "value": 3.6,
+            "value": 3,
             "arriveTangent": 0,
             "leaveTangent": 0
           },
           {
             "interpMode": "cubic",
             "tangentMode": "user",
-            "time": 14000,
-            "value": 3.6,
-            "arriveTangent": -0.00011165353,
-            "leaveTangent": -0.00011165353
+            "time": 14200,
+            "value": 3,
+            "arriveTangent": -0.0000919751,
+            "leaveTangent": -0.0000919751
           },
           {
             "interpMode": "cubic",
             "tangentMode": "user",
-            "time": 43000,
-            "value": 2.52,
-            "arriveTangent": -0.000010567279,
-            "leaveTangent": -0.000010677912
+            "time": 43500,
+            "value": 2.1,
+            "arriveTangent": -0.0000087159,
+            "leaveTangent": -0.0000088072
           }
         ]
       }
@@ -2060,24 +2060,24 @@
       "rarity": "Rare",
       "price": 145,
       "weight": 0.012,
-      "damage": 55,
+      "damage": 61,
       "penetration": 2.4,
-      "muzzleVelocity": 88500,
-      "bleedingChance": 0.19,
-      "bluntDamageScale": 0.05,
-      "protectionGearPenetratedDamageScale": 0.22,
-      "protectionGearBluntDamageScale": 0.145,
+      "muzzleVelocity": 88000,
+      "bleedingChance": 0.095,
+      "bluntDamageScale": 0.13,
+      "protectionGearPenetratedDamageScale": 0.465,
+      "protectionGearBluntDamageScale": 0.285,
       "caliber": "5.45x39",
       "damageAtRange": {
-        "60m": 55,
-        "120m": 55,
-        "240m": 42.7,
-        "480m": 38.5
+        "60m": 61,
+        "120m": 61,
+        "240m": 47.09,
+        "480m": 42.7
       },
       "penetrationAtRange": {
         "60m": 2.4,
         "120m": 2.4,
-        "240m": 1.85,
+        "240m": 1.84,
         "480m": 1.68
       },
       "ballisticCurves": {
@@ -2086,25 +2086,25 @@
             "interpMode": "linear",
             "tangentMode": "auto",
             "time": 0,
-            "value": 55,
+            "value": 61,
             "arriveTangent": 0,
             "leaveTangent": 0
           },
           {
             "interpMode": "cubic",
             "tangentMode": "user",
-            "time": 14200,
-            "value": 55,
-            "arriveTangent": -0.001882601,
-            "leaveTangent": -0.0018820908
+            "time": 14000,
+            "value": 61,
+            "arriveTangent": -0.0021122543,
+            "leaveTangent": -0.0021116819
           },
           {
             "interpMode": "cubic",
             "tangentMode": "user",
-            "time": 43500,
-            "value": 38.5,
-            "arriveTangent": -0.000070469534,
-            "leaveTangent": -0.000070469614
+            "time": 43000,
+            "value": 42.7,
+            "arriveTangent": -0.0000789656,
+            "leaveTangent": -0.0000789657
           }
         ],
         "penetrationPowerOverDistance": [
@@ -2119,18 +2119,18 @@
           {
             "interpMode": "cubic",
             "tangentMode": "user",
-            "time": 14200,
+            "time": 14000,
             "value": 2.4,
-            "arriveTangent": -0.00008534192,
-            "leaveTangent": -0.00008559783
+            "arriveTangent": -0.0000863343,
+            "leaveTangent": -0.0000865932
           },
           {
             "interpMode": "cubic",
             "tangentMode": "user",
-            "time": 43500,
+            "time": 43000,
             "value": 1.68,
-            "arriveTangent": -0.0000023104765,
-            "leaveTangent": -0.0000023104787
+            "arriveTangent": -0.0000023344,
+            "leaveTangent": -0.0000023344
           }
         ]
       }
@@ -2156,21 +2156,21 @@
       "damage": 70,
       "penetration": 1.3,
       "muzzleVelocity": 86000,
-      "bleedingChance": 0.28,
-      "bluntDamageScale": 0.02,
-      "protectionGearPenetratedDamageScale": 0.11,
-      "protectionGearBluntDamageScale": 0.09,
+      "bleedingChance": 0.15,
+      "bluntDamageScale": 0.08,
+      "protectionGearPenetratedDamageScale": 0.3375,
+      "protectionGearBluntDamageScale": 0.1875,
       "caliber": "5.45x39",
       "damageAtRange": {
         "60m": 70,
         "120m": 70,
-        "240m": 60.8,
+        "240m": 50.87,
         "480m": 46.9
       },
       "penetrationAtRange": {
         "60m": 1.3,
         "120m": 1.3,
-        "240m": 1.13,
+        "240m": 0.95,
         "480m": 0.87
       },
       "ballisticCurves": {
@@ -2249,16 +2249,16 @@
       "damage": 63,
       "penetration": 3.6,
       "muzzleVelocity": 39000,
-      "bleedingChance": 0.22,
-      "bluntDamageScale": 0.04,
-      "protectionGearPenetratedDamageScale": 0.63,
-      "protectionGearBluntDamageScale": 0.492,
+      "bleedingChance": 0.11,
+      "bluntDamageScale": 0,
+      "protectionGearPenetratedDamageScale": 0.5625,
+      "protectionGearBluntDamageScale": 0.465,
       "caliber": ".45 ACP",
       "damageAtRange": {
         "60m": 63,
-        "120m": 49.1,
-        "240m": 31.6,
-        "480m": 27.1
+        "120m": 49.06,
+        "240m": 31.56,
+        "480m": 27.09
       },
       "penetrationAtRange": {
         "60m": 3.6,
@@ -2341,22 +2341,22 @@
       "weight": 0.015,
       "damage": 68,
       "penetration": 2.6,
-      "muzzleVelocity": 30000,
-      "bleedingChance": 0.22,
-      "bluntDamageScale": 0.02,
-      "protectionGearPenetratedDamageScale": 0.294,
-      "protectionGearBluntDamageScale": 0.196,
+      "muzzleVelocity": 36000,
+      "bleedingChance": 0.11,
+      "bluntDamageScale": 0.15,
+      "protectionGearPenetratedDamageScale": 0.375,
+      "protectionGearBluntDamageScale": 0.315,
       "caliber": ".45 ACP",
       "damageAtRange": {
-        "60m": 61.5,
-        "120m": 37,
-        "240m": 29.4,
+        "60m": 68,
+        "120m": 45.09,
+        "240m": 30.13,
         "480m": 27.2
       },
       "penetrationAtRange": {
-        "60m": 2.37,
-        "120m": 1.46,
-        "240m": 1.07,
+        "60m": 2.6,
+        "120m": 1.78,
+        "240m": 1.11,
         "480m": 1.04
       },
       "ballisticCurves": {
@@ -2372,18 +2372,18 @@
           {
             "interpMode": "cubic",
             "tangentMode": "user",
-            "time": 5000,
+            "time": 7000,
             "value": 68,
-            "arriveTangent": -0.006947918,
-            "leaveTangent": -0.006947515
+            "arriveTangent": -0.0060794281,
+            "leaveTangent": -0.0060790755
           },
           {
             "interpMode": "cubic",
             "tangentMode": "user",
-            "time": 28000,
+            "time": 32000,
             "value": 27.2,
-            "arriveTangent": -0.0010717851,
-            "leaveTangent": -0.0010779497
+            "arriveTangent": -0.0009860423,
+            "leaveTangent": -0.0009917137
           }
         ],
         "penetrationPowerOverDistance": [
@@ -2398,18 +2398,18 @@
           {
             "interpMode": "cubic",
             "tangentMode": "user",
-            "time": 5000,
+            "time": 7000,
             "value": 2.6,
-            "arriveTangent": -0.00024074597,
-            "leaveTangent": -0.00024071912
+            "arriveTangent": -0.0002106527,
+            "leaveTangent": -0.0002106292
           },
           {
             "interpMode": "cubic",
             "tangentMode": "user",
-            "time": 28000,
+            "time": 32000,
             "value": 1.04,
-            "arriveTangent": -0.000017057757,
-            "leaveTangent": -0.000017293378
+            "arriveTangent": -0.0000156931,
+            "leaveTangent": -0.0000159099
           }
         ]
       }
@@ -2434,22 +2434,22 @@
       "weight": 0.015,
       "damage": 75,
       "penetration": 1.8,
-      "muzzleVelocity": 36000,
-      "bleedingChance": 0.22,
-      "bluntDamageScale": 0.02,
+      "muzzleVelocity": 30000,
+      "bleedingChance": 0.11,
+      "bluntDamageScale": 0.13,
       "protectionGearPenetratedDamageScale": 0.18,
-      "protectionGearBluntDamageScale": 0.105,
+      "protectionGearBluntDamageScale": 0.165,
       "caliber": ".45 ACP",
       "damageAtRange": {
-        "60m": 75,
-        "120m": 52.6,
-        "240m": 37.9,
-        "480m": 33.8
+        "60m": 69.12,
+        "120m": 46.48,
+        "240m": 36.65,
+        "480m": 33.75
       },
       "penetrationAtRange": {
-        "60m": 1.8,
-        "120m": 1.31,
-        "240m": 0.9,
+        "60m": 1.66,
+        "120m": 1.13,
+        "240m": 0.86,
         "480m": 0.81
       },
       "ballisticCurves": {
@@ -2465,18 +2465,18 @@
           {
             "interpMode": "cubic",
             "tangentMode": "user",
-            "time": 6500,
+            "time": 5000,
             "value": 75,
-            "arriveTangent": -0.005460645,
-            "leaveTangent": -0.005449624
+            "arriveTangent": -0.0062407371,
+            "leaveTangent": -0.0062281417
           },
           {
             "interpMode": "cubic",
             "tangentMode": "user",
-            "time": 32000,
+            "time": 28000,
             "value": 33.75,
-            "arriveTangent": -0.0010459751,
-            "leaveTangent": -0.0010579486
+            "arriveTangent": -0.001159668,
+            "leaveTangent": -0.001172943
           }
         ],
         "penetrationPowerOverDistance": [
@@ -2491,18 +2491,18 @@
           {
             "interpMode": "cubic",
             "tangentMode": "user",
-            "time": 7000,
+            "time": 5000,
             "value": 1.8,
-            "arriveTangent": -0.00012452954,
-            "leaveTangent": -0.00012478435
+            "arriveTangent": -0.0001423195,
+            "leaveTangent": -0.0001426107
           },
           {
             "interpMode": "cubic",
             "tangentMode": "user",
-            "time": 32000,
+            "time": 28000,
             "value": 0.81,
-            "arriveTangent": -0.000017057757,
-            "leaveTangent": -0.000017293378
+            "arriveTangent": -0.000018541,
+            "leaveTangent": -0.0000187971
           }
         ]
       }
@@ -2618,25 +2618,25 @@
       "rarity": "Epic",
       "price": 765,
       "weight": 0.055,
-      "damage": 120,
-      "penetration": 3.8,
-      "muzzleVelocity": 52500,
-      "bleedingChance": 0.15,
-      "bluntDamageScale": 0.4,
-      "protectionGearPenetratedDamageScale": 0.413,
-      "protectionGearBluntDamageScale": 0.3045,
+      "damage": 182,
+      "penetration": 2.6,
+      "muzzleVelocity": 41000,
+      "bleedingChance": 0.2,
+      "bluntDamageScale": 0.06,
+      "protectionGearPenetratedDamageScale": 0.175,
+      "protectionGearBluntDamageScale": 0.075,
       "caliber": "12GA",
       "damageAtRange": {
-        "60m": 120,
-        "120m": 106.8,
-        "240m": 71.5,
-        "480m": 48
+        "60m": 182,
+        "120m": 134.14,
+        "240m": 92.15,
+        "480m": 72.8
       },
       "penetrationAtRange": {
-        "60m": 3.8,
-        "120m": 2.96,
-        "240m": 1.75,
-        "480m": 1.52
+        "60m": 2.6,
+        "120m": 2.02,
+        "240m": 1.2,
+        "480m": 1.04
       },
       "ballisticCurves": {
         "damageOverDistance": [
@@ -2644,7 +2644,7 @@
             "interpMode": "linear",
             "tangentMode": "auto",
             "time": 0,
-            "value": 120,
+            "value": 182,
             "arriveTangent": 0,
             "leaveTangent": 0
           },
@@ -2652,17 +2652,17 @@
             "interpMode": "cubic",
             "tangentMode": "user",
             "time": 7500,
-            "value": 120,
-            "arriveTangent": -0.009051118,
-            "leaveTangent": -0.009051228
+            "value": 182,
+            "arriveTangent": -0.0137275286,
+            "leaveTangent": -0.0137276954
           },
           {
-            "interpMode": "linear",
+            "interpMode": "cubic",
             "tangentMode": "auto",
             "time": 32000,
-            "value": 48,
-            "arriveTangent": 0,
-            "leaveTangent": 0
+            "value": 72.8,
+            "arriveTangent": -0.0044571427,
+            "leaveTangent": -0.0044571427
           }
         ],
         "penetrationPowerOverDistance": [
@@ -2670,7 +2670,7 @@
             "interpMode": "linear",
             "tangentMode": "auto",
             "time": 0,
-            "value": 3.8,
+            "value": 2.6,
             "arriveTangent": 0,
             "leaveTangent": 0
           },
@@ -2678,17 +2678,17 @@
             "interpMode": "cubic",
             "tangentMode": "user",
             "time": 7500,
-            "value": 3.8,
-            "arriveTangent": -0.00021586491,
-            "leaveTangent": -0.00021578562
+            "value": 2.6,
+            "arriveTangent": -0.000147697,
+            "leaveTangent": -0.0001476428
           },
           {
             "interpMode": "cubic",
             "tangentMode": "user",
             "time": 32000,
-            "value": 1.52,
-            "arriveTangent": -0.000012,
-            "leaveTangent": -0.000011
+            "value": 1.04,
+            "arriveTangent": -0.0000082105,
+            "leaveTangent": -0.0000075263
           }
         ]
       }
@@ -2711,26 +2711,26 @@
       "rarity": "Epic",
       "price": 505,
       "weight": 0.045,
-      "damage": 18,
+      "damage": 22,
       "pellets": 6,
-      "penetration": 3.8,
-      "muzzleVelocity": 22000,
-      "bleedingChance": 0.22,
-      "bluntDamageScale": 0.35,
-      "protectionGearPenetratedDamageScale": 0.41,
-      "protectionGearBluntDamageScale": 0.27,
+      "penetration": 3.3,
+      "muzzleVelocity": 32000,
+      "bleedingChance": 0.04,
+      "bluntDamageScale": 0.05,
+      "protectionGearPenetratedDamageScale": 0.325,
+      "protectionGearBluntDamageScale": 0.235,
       "caliber": "12GA",
       "damageAtRange": {
-        "60m": 14.1,
-        "120m": 8.4,
-        "240m": 6.3,
-        "480m": 6.3
+        "60m": 14.53,
+        "120m": 9.36,
+        "240m": 7.7,
+        "480m": 7.7
       },
       "penetrationAtRange": {
-        "60m": 3.35,
-        "120m": 2.31,
-        "240m": 1.52,
-        "480m": 1.52
+        "60m": 3.19,
+        "120m": 2.08,
+        "240m": 1.16,
+        "480m": 1.16
       },
       "ballisticCurves": {
         "damageOverDistance": [
@@ -2738,25 +2738,25 @@
             "interpMode": "linear",
             "tangentMode": "auto",
             "time": 0,
-            "value": 18,
+            "value": 22,
             "arriveTangent": 0,
             "leaveTangent": 0
           },
           {
             "interpMode": "cubic",
             "tangentMode": "user",
-            "time": 4000,
-            "value": 18,
-            "arriveTangent": -0.0022538027,
-            "leaveTangent": -0.0022520192
+            "time": 2500,
+            "value": 22,
+            "arriveTangent": -0.0027546477,
+            "leaveTangent": -0.0027524679
           },
           {
             "interpMode": "cubic",
             "tangentMode": "user",
             "time": 23000,
-            "value": 6.3,
-            "arriveTangent": -0.0004680533,
-            "leaveTangent": -0.00046923108
+            "value": 7.7,
+            "arriveTangent": -0.0005302067,
+            "leaveTangent": -0.0005315409
           }
         ],
         "penetrationPowerOverDistance": [
@@ -2764,25 +2764,25 @@
             "interpMode": "linear",
             "tangentMode": "auto",
             "time": 0,
-            "value": 3.8,
+            "value": 3.3,
             "arriveTangent": 0,
             "leaveTangent": 0
           },
           {
             "interpMode": "cubic",
             "tangentMode": "user",
-            "time": 4000,
-            "value": 3.8,
-            "arriveTangent": -0.00023757684,
-            "leaveTangent": -0.00023804836
+            "time": 5500,
+            "value": 3.3,
+            "arriveTangent": -0.0002235098,
+            "leaveTangent": -0.0002239534
           },
           {
             "interpMode": "cubic",
             "tangentMode": "user",
             "time": 23000,
-            "value": 1.52,
-            "arriveTangent": -0.000012,
-            "leaveTangent": -0.000011
+            "value": 1.155,
+            "arriveTangent": -0.0000122571,
+            "leaveTangent": -0.0000112357
           }
         ]
       }
@@ -2805,26 +2805,26 @@
       "rarity": "Common",
       "price": 85,
       "weight": 0.045,
-      "damage": 30,
+      "damage": 25,
       "pellets": 6,
-      "penetration": 1.2,
-      "muzzleVelocity": 42000,
-      "bleedingChance": 0.22,
-      "bluntDamageScale": 0.25,
-      "protectionGearPenetratedDamageScale": 0.03,
-      "protectionGearBluntDamageScale": 0.01,
+      "penetration": 0.3,
+      "muzzleVelocity": 43000,
+      "bleedingChance": 0.03,
+      "bluntDamageScale": 0,
+      "protectionGearPenetratedDamageScale": 0.06,
+      "protectionGearBluntDamageScale": 0.03,
       "caliber": "12GA",
       "damageAtRange": {
-        "60m": 24.5,
-        "120m": 11.7,
-        "240m": 8.1,
-        "480m": 7.5
+        "60m": 9.29,
+        "120m": 6.92,
+        "240m": 6.51,
+        "480m": 6.25
       },
       "penetrationAtRange": {
-        "60m": 1.07,
-        "120m": 0.68,
-        "240m": 0.33,
-        "480m": 0.3
+        "60m": 0.27,
+        "120m": 0.17,
+        "240m": 0.08,
+        "480m": 0.08
       },
       "ballisticCurves": {
         "damageOverDistance": [
@@ -2832,25 +2832,33 @@
             "interpMode": "linear",
             "tangentMode": "auto",
             "time": 0,
-            "value": 30,
+            "value": 25,
             "arriveTangent": 0,
             "leaveTangent": 0
           },
           {
             "interpMode": "cubic",
-            "tangentMode": "user",
-            "time": 4500,
-            "value": 30,
-            "arriveTangent": -0.004026683,
-            "leaveTangent": -0.004026616
+            "tangentMode": "auto",
+            "time": 1500,
+            "value": 25,
+            "arriveTangent": -0.003,
+            "leaveTangent": -0.003
           },
           {
             "interpMode": "cubic",
-            "tangentMode": "user",
+            "tangentMode": "auto",
+            "time": 5000,
+            "value": 10,
+            "arriveTangent": -0.0007653061,
+            "leaveTangent": -0.0007653061
+          },
+          {
+            "interpMode": "cubic",
+            "tangentMode": "auto",
             "time": 26000,
-            "value": 7.5,
-            "arriveTangent": -0.00046817792,
-            "leaveTangent": -0.00046131213
+            "value": 6.25,
+            "arriveTangent": -0.0001785714,
+            "leaveTangent": -0.0001785714
           }
         ],
         "penetrationPowerOverDistance": [
@@ -2858,7 +2866,7 @@
             "interpMode": "linear",
             "tangentMode": "auto",
             "time": 0,
-            "value": 1.2,
+            "value": 0.3,
             "arriveTangent": 0,
             "leaveTangent": 0
           },
@@ -2866,17 +2874,17 @@
             "interpMode": "cubic",
             "tangentMode": "user",
             "time": 4500,
-            "value": 1.2,
-            "arriveTangent": -0.000092,
-            "leaveTangent": -0.000092
+            "value": 0.3,
+            "arriveTangent": -0.000023,
+            "leaveTangent": -0.000023
           },
           {
             "interpMode": "cubic",
             "tangentMode": "user",
             "time": 26000,
-            "value": 0.3,
-            "arriveTangent": -0.000012,
-            "leaveTangent": -0.000011
+            "value": 0.075,
+            "arriveTangent": -0.000003,
+            "leaveTangent": -0.00000275
           }
         ]
       }
@@ -2899,25 +2907,25 @@
       "rarity": "Common",
       "price": 426,
       "weight": 0.055,
-      "damage": 165,
-      "penetration": 1.1,
-      "muzzleVelocity": 41000,
-      "bleedingChance": 0.55,
-      "bluntDamageScale": 0.3,
-      "protectionGearPenetratedDamageScale": 0.05,
-      "protectionGearBluntDamageScale": 0.03,
+      "damage": 168,
+      "penetration": 1.5,
+      "muzzleVelocity": 37000,
+      "bleedingChance": 0.275,
+      "bluntDamageScale": 0.05,
+      "protectionGearPenetratedDamageScale": 0.125,
+      "protectionGearBluntDamageScale": 0.035,
       "caliber": "12GA",
       "damageAtRange": {
-        "60m": 162.6,
-        "120m": 134.4,
-        "240m": 77.8,
-        "480m": 49.5
+        "60m": 160.43,
+        "120m": 99.01,
+        "240m": 67.25,
+        "480m": 50.4
       },
       "penetrationAtRange": {
-        "60m": 1.06,
-        "120m": 0.66,
-        "240m": 0.38,
-        "480m": 0.33
+        "60m": 1.44,
+        "120m": 0.9,
+        "240m": 0.52,
+        "480m": 0.45
       },
       "ballisticCurves": {
         "damageOverDistance": [
@@ -2925,7 +2933,7 @@
             "interpMode": "linear",
             "tangentMode": "auto",
             "time": 0,
-            "value": 165,
+            "value": 168,
             "arriveTangent": 0,
             "leaveTangent": 0
           },
@@ -2933,17 +2941,17 @@
             "interpMode": "cubic",
             "tangentMode": "user",
             "time": 5500,
-            "value": 165,
-            "arriveTangent": -0.015293677,
-            "leaveTangent": -0.015293677
+            "value": 168,
+            "arriveTangent": -0.0155717436,
+            "leaveTangent": -0.0155717436
           },
           {
-            "interpMode": "linear",
+            "interpMode": "cubic",
             "tangentMode": "auto",
             "time": 30000,
-            "value": 49.5,
-            "arriveTangent": 0,
-            "leaveTangent": 0
+            "value": 50.4,
+            "arriveTangent": -0.0047999999,
+            "leaveTangent": -0.0047999999
           }
         ],
         "penetrationPowerOverDistance": [
@@ -2951,7 +2959,7 @@
             "interpMode": "linear",
             "tangentMode": "auto",
             "time": 0,
-            "value": 1.1,
+            "value": 1.5,
             "arriveTangent": 0,
             "leaveTangent": 0
           },
@@ -2959,17 +2967,17 @@
             "interpMode": "cubic",
             "tangentMode": "user",
             "time": 5500,
-            "value": 1.1,
-            "arriveTangent": -0.00009151435,
-            "leaveTangent": -0.000091514325
+            "value": 1.5,
+            "arriveTangent": -0.0001247923,
+            "leaveTangent": -0.0001247923
           },
           {
             "interpMode": "cubic",
             "tangentMode": "user",
             "time": 30000,
-            "value": 0.33,
-            "arriveTangent": -0.000011509358,
-            "leaveTangent": -0.00001149426
+            "value": 0.45,
+            "arriveTangent": -0.0000156946,
+            "leaveTangent": -0.000015674
           }
         ]
       }
@@ -2993,24 +3001,24 @@
       "price": 1793,
       "weight": 0.028,
       "damage": 72,
-      "penetration": 6.2,
-      "muzzleVelocity": 89000,
-      "bleedingChance": 0.27,
-      "bluntDamageScale": 0.08,
-      "protectionGearPenetratedDamageScale": 0.987,
-      "protectionGearBluntDamageScale": 0.8225,
+      "penetration": 7,
+      "muzzleVelocity": 78000,
+      "bleedingChance": 0.125,
+      "bluntDamageScale": 0.33,
+      "protectionGearPenetratedDamageScale": 1.35,
+      "protectionGearBluntDamageScale": 0.675,
       "caliber": "7.62x54R",
       "damageAtRange": {
         "60m": 72,
         "120m": 72,
-        "240m": 70.3,
-        "480m": 57.9
+        "240m": 72,
+        "480m": 60.33
       },
       "penetrationAtRange": {
-        "60m": 6.2,
-        "120m": 6.2,
-        "240m": 6.05,
-        "480m": 5.03
+        "60m": 7,
+        "120m": 7,
+        "240m": 7,
+        "480m": 5.04
       },
       "ballisticCurves": {
         "damageOverDistance": [
@@ -3025,18 +3033,18 @@
           {
             "interpMode": "cubic",
             "tangentMode": "user",
-            "time": 22500,
+            "time": 24000,
             "value": 72,
-            "arriveTangent": -0.0012072327,
-            "leaveTangent": -0.0012085813
+            "arriveTangent": -0.001110099,
+            "leaveTangent": -0.0011113391
           },
           {
             "interpMode": "cubic",
             "tangentMode": "user",
-            "time": 64000,
-            "value": 57.6,
-            "arriveTangent": -0.000025815916,
-            "leaveTangent": -0.000026503458
+            "time": 58000,
+            "value": 60,
+            "arriveTangent": -0.0000262588,
+            "leaveTangent": -0.0000269582
           }
         ],
         "penetrationPowerOverDistance": [
@@ -3044,25 +3052,25 @@
             "interpMode": "linear",
             "tangentMode": "auto",
             "time": 0,
-            "value": 6.2,
+            "value": 7,
             "arriveTangent": 0,
             "leaveTangent": 0
           },
           {
             "interpMode": "cubic",
             "tangentMode": "user",
-            "time": 22500,
-            "value": 6.2,
-            "arriveTangent": -0.000106495856,
-            "leaveTangent": -0.000106662024
+            "time": 24000,
+            "value": 7,
+            "arriveTangent": -0.0001990134,
+            "leaveTangent": -0.0001993239
           },
           {
             "interpMode": "cubic",
             "tangentMode": "user",
-            "time": 64000,
-            "value": 4.96,
-            "arriveTangent": -0.0000108000895,
-            "leaveTangent": -0.00001096811
+            "time": 58000,
+            "value": 4.9,
+            "arriveTangent": -0.0000223251,
+            "leaveTangent": -0.0000226725
           }
         ]
       }
@@ -3085,25 +3093,25 @@
       "rarity": "Legendary",
       "price": 1288,
       "weight": 0.028,
-      "damage": 81,
-      "penetration": 4.7,
-      "muzzleVelocity": 88000,
-      "bleedingChance": 0.27,
-      "bluntDamageScale": 0.08,
-      "protectionGearPenetratedDamageScale": 0.581,
-      "protectionGearBluntDamageScale": 0.469,
+      "damage": 75,
+      "penetration": 6.1,
+      "muzzleVelocity": 89000,
+      "bleedingChance": 0.125,
+      "bluntDamageScale": 0.3,
+      "protectionGearPenetratedDamageScale": 1.125,
+      "protectionGearBluntDamageScale": 0.6225,
       "caliber": "7.62x54R",
       "damageAtRange": {
-        "60m": 81,
-        "120m": 81,
-        "240m": 76.7,
-        "480m": 56.3
+        "60m": 75,
+        "120m": 75,
+        "240m": 73.38,
+        "480m": 62.2
       },
       "penetrationAtRange": {
-        "60m": 4.7,
-        "120m": 4.7,
-        "240m": 4.41,
-        "480m": 3.02
+        "60m": 6.1,
+        "120m": 6.1,
+        "240m": 5.96,
+        "480m": 5
       },
       "ballisticCurves": {
         "damageOverDistance": [
@@ -3111,25 +3119,25 @@
             "interpMode": "linear",
             "tangentMode": "auto",
             "time": 0,
-            "value": 81,
+            "value": 75,
             "arriveTangent": 0,
             "leaveTangent": 0
           },
           {
             "interpMode": "cubic",
             "tangentMode": "user",
-            "time": 22000,
-            "value": 81,
-            "arriveTangent": -0.0022741286,
-            "leaveTangent": -0.0022774497
+            "time": 22500,
+            "value": 75,
+            "arriveTangent": -0.00112804,
+            "leaveTangent": -0.0011296874
           },
           {
             "interpMode": "cubic",
             "tangentMode": "user",
-            "time": 60000,
-            "value": 52.65,
-            "arriveTangent": -0.00051670853,
-            "leaveTangent": -0.0005184418
+            "time": 64000,
+            "value": 60,
+            "arriveTangent": -0.0002503337,
+            "leaveTangent": -0.0002511734
           }
         ],
         "penetrationPowerOverDistance": [
@@ -3137,25 +3145,25 @@
             "interpMode": "linear",
             "tangentMode": "auto",
             "time": 0,
-            "value": 4.7,
+            "value": 6.1,
             "arriveTangent": 0,
             "leaveTangent": 0
           },
           {
             "interpMode": "cubic",
             "tangentMode": "user",
-            "time": 22000,
-            "value": 4.7,
-            "arriveTangent": -0.00015673229,
-            "leaveTangent": -0.00015698487
+            "time": 22500,
+            "value": 6.1,
+            "arriveTangent": -0.0000974253,
+            "leaveTangent": -0.0000975823
           },
           {
             "interpMode": "cubic",
             "tangentMode": "user",
-            "time": 60000,
-            "value": 2.86,
-            "arriveTangent": -0.000023571693,
-            "leaveTangent": -0.00002350519
+            "time": 64000,
+            "value": 4.88,
+            "arriveTangent": -0.0000143109,
+            "leaveTangent": -0.0000142706
           }
         ]
       }
@@ -3178,25 +3186,25 @@
       "rarity": "Epic",
       "price": 502,
       "weight": 0.029,
-      "damage": 84,
-      "penetration": 3.9,
+      "damage": 85,
+      "penetration": 4.1,
       "muzzleVelocity": 73000,
-      "bleedingChance": 0.27,
-      "bluntDamageScale": 0.05,
-      "protectionGearPenetratedDamageScale": 0.315,
-      "protectionGearBluntDamageScale": 0.231,
+      "bleedingChance": 0.125,
+      "bluntDamageScale": 0.13,
+      "protectionGearPenetratedDamageScale": 0.5925,
+      "protectionGearBluntDamageScale": 0.495,
       "caliber": "7.62x54R",
       "damageAtRange": {
-        "60m": 84,
-        "120m": 84,
-        "240m": 71.9,
-        "480m": 58.9
+        "60m": 85,
+        "120m": 85,
+        "240m": 72.75,
+        "480m": 59.57
       },
       "penetrationAtRange": {
-        "60m": 3.9,
-        "120m": 3.9,
-        "240m": 3.36,
-        "480m": 2.39
+        "60m": 4.1,
+        "120m": 4.1,
+        "240m": 3.65,
+        "480m": 2.88
       },
       "ballisticCurves": {
         "damageOverDistance": [
@@ -3204,7 +3212,7 @@
             "interpMode": "linear",
             "tangentMode": "auto",
             "time": 0,
-            "value": 84,
+            "value": 85,
             "arriveTangent": 0,
             "leaveTangent": 0
           },
@@ -3212,17 +3220,17 @@
             "interpMode": "cubic",
             "tangentMode": "user",
             "time": 18000,
-            "value": 84,
-            "arriveTangent": -0.0024786615,
-            "leaveTangent": -0.0024785623
+            "value": 85,
+            "arriveTangent": -0.0025081694,
+            "leaveTangent": -0.002508069
           },
           {
             "interpMode": "cubic",
             "tangentMode": "user",
             "time": 50000,
-            "value": 58.8,
-            "arriveTangent": -0.000044347344,
-            "leaveTangent": -0.000045567554
+            "value": 59.5,
+            "arriveTangent": -0.0000448753,
+            "leaveTangent": -0.00004611
           }
         ],
         "penetrationPowerOverDistance": [
@@ -3230,7 +3238,7 @@
             "interpMode": "linear",
             "tangentMode": "auto",
             "time": 0,
-            "value": 3.9,
+            "value": 4.1,
             "arriveTangent": 0,
             "leaveTangent": 0
           },
@@ -3238,17 +3246,17 @@
             "interpMode": "cubic",
             "tangentMode": "user",
             "time": 18000,
-            "value": 3.9,
-            "arriveTangent": -0.00010239227,
-            "leaveTangent": -0.00010227864
+            "value": 4.1,
+            "arriveTangent": -0.000084514,
+            "leaveTangent": -0.0000844203
           },
           {
             "interpMode": "cubic",
             "tangentMode": "user",
-            "time": 51000,
-            "value": 2.38,
-            "arriveTangent": -0.0000016875657,
-            "leaveTangent": -0.0000016714687
+            "time": 50000,
+            "value": 2.87,
+            "arriveTangent": -0.0000014083,
+            "leaveTangent": -0.0000013948
           }
         ]
       }
@@ -3272,24 +3280,24 @@
       "price": 196,
       "weight": 0.028,
       "damage": 86,
-      "penetration": 3.2,
+      "penetration": 3.4,
       "muzzleVelocity": 76000,
-      "bleedingChance": 0.27,
-      "bluntDamageScale": 0.05,
-      "protectionGearPenetratedDamageScale": 0.203,
-      "protectionGearBluntDamageScale": 0.1435,
+      "bleedingChance": 0.125,
+      "bluntDamageScale": 0.1,
+      "protectionGearPenetratedDamageScale": 0.465,
+      "protectionGearBluntDamageScale": 0.3675,
       "caliber": "7.62x54R",
       "damageAtRange": {
         "60m": 86,
         "120m": 86,
-        "240m": 77.1,
-        "480m": 60.6
+        "240m": 77.06,
+        "480m": 60.56
       },
       "penetrationAtRange": {
-        "60m": 3.2,
-        "120m": 3.2,
-        "240m": 2.86,
-        "480m": 2.25
+        "60m": 3.4,
+        "120m": 3.4,
+        "240m": 3.04,
+        "480m": 2.39
       },
       "ballisticCurves": {
         "damageOverDistance": [
@@ -3323,7 +3331,7 @@
             "interpMode": "linear",
             "tangentMode": "auto",
             "time": 0,
-            "value": 3.2,
+            "value": 3.4,
             "arriveTangent": 0,
             "leaveTangent": 0
           },
@@ -3331,17 +3339,17 @@
             "interpMode": "cubic",
             "tangentMode": "user",
             "time": 19500,
-            "value": 3.2,
-            "arriveTangent": -0.00008748311,
-            "leaveTangent": -0.00008748318
+            "value": 3.4,
+            "arriveTangent": -0.0000929508,
+            "leaveTangent": -0.0000929509
           },
           {
             "interpMode": "cubic",
             "tangentMode": "user",
             "time": 53000,
-            "value": 2.24,
-            "arriveTangent": -0.0000023104765,
-            "leaveTangent": -0.0000023104787
+            "value": 2.38,
+            "arriveTangent": -0.0000024549,
+            "leaveTangent": -0.0000024549
           }
         ]
       }
@@ -3364,25 +3372,25 @@
       "rarity": "Common",
       "price": 144,
       "weight": 0.028,
-      "damage": 105,
-      "penetration": 3.2,
-      "muzzleVelocity": 80500,
-      "bleedingChance": 0.39,
-      "bluntDamageScale": 0.02,
-      "protectionGearPenetratedDamageScale": 0.126,
-      "protectionGearBluntDamageScale": 0.105,
+      "damage": 90,
+      "penetration": 2.3,
+      "muzzleVelocity": 70600,
+      "bleedingChance": 0.195,
+      "bluntDamageScale": 0.08,
+      "protectionGearPenetratedDamageScale": 0.3375,
+      "protectionGearBluntDamageScale": 0.24,
       "caliber": "7.62x54R",
       "damageAtRange": {
-        "60m": 105,
-        "120m": 105,
-        "240m": 101.5,
-        "480m": 80.5
+        "60m": 90,
+        "120m": 90,
+        "240m": 81.61,
+        "480m": 66.64
       },
       "penetrationAtRange": {
-        "60m": 3.2,
-        "120m": 3.2,
-        "240m": 3.09,
-        "480m": 2.45
+        "60m": 2.3,
+        "120m": 2.3,
+        "240m": 2.08,
+        "480m": 1.7
       },
       "ballisticCurves": {
         "damageOverDistance": [
@@ -3390,7 +3398,7 @@
             "interpMode": "linear",
             "tangentMode": "auto",
             "time": 0,
-            "value": 105,
+            "value": 90,
             "arriveTangent": 0,
             "leaveTangent": 0
           },
@@ -3398,17 +3406,17 @@
             "interpMode": "cubic",
             "tangentMode": "user",
             "time": 20000,
-            "value": 105,
-            "arriveTangent": -0.0028645187,
-            "leaveTangent": -0.0028645294
+            "value": 90,
+            "arriveTangent": -0.0024553017,
+            "leaveTangent": -0.0024553109
           },
           {
-            "interpMode": "linear",
+            "interpMode": "cubic",
             "tangentMode": "auto",
             "time": 56000,
-            "value": 73.5,
-            "arriveTangent": 0,
-            "leaveTangent": 0
+            "value": 63,
+            "arriveTangent": -0.00075,
+            "leaveTangent": -0.00075
           }
         ],
         "penetrationPowerOverDistance": [
@@ -3416,7 +3424,7 @@
             "interpMode": "linear",
             "tangentMode": "auto",
             "time": 0,
-            "value": 3.2,
+            "value": 2.3,
             "arriveTangent": 0,
             "leaveTangent": 0
           },
@@ -3424,17 +3432,17 @@
             "interpMode": "cubic",
             "tangentMode": "user",
             "time": 20000,
-            "value": 3.2,
-            "arriveTangent": -0.00008995006,
-            "leaveTangent": -0.00008995006
+            "value": 2.3,
+            "arriveTangent": -0.0000646516,
+            "leaveTangent": -0.0000646516
           },
           {
-            "interpMode": "linear",
+            "interpMode": "cubic",
             "tangentMode": "auto",
             "time": 56000,
-            "value": 2.24,
-            "arriveTangent": 0,
-            "leaveTangent": 0
+            "value": 1.61,
+            "arriveTangent": -0.0000191667,
+            "leaveTangent": -0.0000191667
           }
         ]
       }
@@ -3458,24 +3466,24 @@
       "price": 1680,
       "weight": 0.022,
       "damage": 73,
-      "penetration": 4.8,
+      "penetration": 4.7,
       "muzzleVelocity": 93000,
-      "bleedingChance": 0.23,
-      "bluntDamageScale": 0.08,
-      "protectionGearPenetratedDamageScale": 0.81,
-      "protectionGearBluntDamageScale": 0.63,
+      "bleedingChance": 0.115,
+      "bluntDamageScale": 0,
+      "protectionGearPenetratedDamageScale": 0.7125,
+      "protectionGearBluntDamageScale": 0.5925,
       "caliber": "6.8x51",
       "damageAtRange": {
         "60m": 73,
         "120m": 73,
-        "240m": 60.4,
-        "480m": 49.2
+        "240m": 60.35,
+        "480m": 49.19
       },
       "penetrationAtRange": {
-        "60m": 4.8,
-        "120m": 4.8,
+        "60m": 4.7,
+        "120m": 4.7,
         "240m": 4.04,
-        "480m": 3.05
+        "480m": 3.17
       },
       "ballisticCurves": {
         "damageOverDistance": [
@@ -3509,7 +3517,7 @@
             "interpMode": "linear",
             "tangentMode": "auto",
             "time": 0,
-            "value": 4.8,
+            "value": 4.7,
             "arriveTangent": 0,
             "leaveTangent": 0
           },
@@ -3517,17 +3525,17 @@
             "interpMode": "cubic",
             "tangentMode": "user",
             "time": 16700,
-            "value": 4.8,
-            "arriveTangent": -0.00012725724,
-            "leaveTangent": -0.00012725724
+            "value": 4.7,
+            "arriveTangent": -0.000111647,
+            "leaveTangent": -0.000111647
           },
           {
             "interpMode": "cubic",
             "tangentMode": "user",
             "time": 53000,
-            "value": 2.925,
-            "arriveTangent": -0.00002856897,
-            "leaveTangent": -0.00002829799
+            "value": 3.055,
+            "arriveTangent": -0.0000250645,
+            "leaveTangent": -0.0000248268
           }
         ]
       }
@@ -3551,24 +3559,24 @@
       "price": 650,
       "weight": 0.022,
       "damage": 80,
-      "penetration": 3.4,
+      "penetration": 3.7,
       "muzzleVelocity": 90100,
-      "bleedingChance": 0.23,
-      "bluntDamageScale": 0.05,
-      "protectionGearPenetratedDamageScale": 0.52,
-      "protectionGearBluntDamageScale": 0.4,
+      "bleedingChance": 0.115,
+      "bluntDamageScale": 0.16,
+      "protectionGearPenetratedDamageScale": 0.495,
+      "protectionGearBluntDamageScale": 0.3675,
       "caliber": "6.8x51",
       "damageAtRange": {
         "60m": 80,
         "120m": 80,
-        "240m": 66.9,
-        "480m": 56.1
+        "240m": 66.92,
+        "480m": 56.14
       },
       "penetrationAtRange": {
-        "60m": 3.4,
-        "120m": 3.4,
-        "240m": 2.86,
-        "480m": 2.39
+        "60m": 3.7,
+        "120m": 3.7,
+        "240m": 3.12,
+        "480m": 2.6
       },
       "ballisticCurves": {
         "damageOverDistance": [
@@ -3602,7 +3610,7 @@
             "interpMode": "linear",
             "tangentMode": "auto",
             "time": 0,
-            "value": 3.4,
+            "value": 3.7,
             "arriveTangent": 0,
             "leaveTangent": 0
           },
@@ -3610,17 +3618,17 @@
             "interpMode": "cubic",
             "tangentMode": "user",
             "time": 15500,
-            "value": 3.4,
-            "arriveTangent": -0.00007949589,
-            "leaveTangent": -0.000079702324
+            "value": 3.7,
+            "arriveTangent": -0.0000865102,
+            "leaveTangent": -0.0000867349
           },
           {
             "interpMode": "cubic",
             "tangentMode": "user",
             "time": 50000,
-            "value": 2.38,
-            "arriveTangent": -0.0000023104765,
-            "leaveTangent": -0.0000023104787
+            "value": 2.59,
+            "arriveTangent": -0.0000025143,
+            "leaveTangent": -0.0000025143
           }
         ]
       }
